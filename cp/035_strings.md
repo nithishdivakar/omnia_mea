@@ -29,3 +29,5 @@ def minDistance(self, word1: str, word2: str) -> int:
                 )
     return cost[m][n]
 ```
+- $T(n) = O(mn)$
+- $S(n) = O(mn)$ but can be optimised to $O(\min(m,n))$
