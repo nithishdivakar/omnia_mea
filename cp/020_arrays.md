@@ -32,6 +32,20 @@ You can return the answer in any order.
         return (-1, -1)
     ```
 
+## Maximum Subarray Sum [LC 53]
+- Kadane's algorithm
+- find the max sum of subarray ending at location `i`.
+- $T(n) = O(n)$
+
+```python
+def max_subarray_sum(nums: List[int]) -> int:
+    curr, ans = 0, nums[0]
+    for num in nums:
+        curr = max(curr + num, num)
+        ans = max(ans, curr)
+    return ans
+```
+
 ## Containers with most water [LC 11]
 Given n non-negative integers a1, a2, ..., an , where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of the line i is at (i, ai) and (i, 0). Find two lines, which, together with the x-axis forms a container, such that the container contains the most water.
 - Limiting factor of volume of water between 2 walls is the smaller one.
