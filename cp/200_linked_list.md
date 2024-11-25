@@ -3,6 +3,7 @@
 
 # Reversing a linked list iterative
 
+```python
 def fn(head):
     curr = head
     prev = None
@@ -13,3 +14,4 @@ def fn(head):
         curr = next_node 
         
     return prev
+```

@@ -1,8 +1,6 @@
-# We do not add path compression as addition of 
-# roll back will results in unnecessary operations
-# This results in O(log n) for find (due to merge by rank)
+- We do not add path compression as addition of roll back will results in unnecessary operations. This results in O(log n) for find (due to merge by rank)
 
-
+```python
 class DSU_rollback:
   def __init__(self):
     self.parent = {}
@@ -44,3 +42,4 @@ class DSU_rollback:
     self.rank[v] = rank_v
     self.parent[u] = u
     self.rank[u] = rank_u
+```

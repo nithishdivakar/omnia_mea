@@ -1,3 +1,5 @@
+
+```python
 class DSU:
   def __init__(self):
     self.parent = {}
@@ -28,3 +30,4 @@ class DSU:
         self.rank[root_x] += 1
       return True
     return False
+```

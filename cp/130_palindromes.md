@@ -26,7 +26,7 @@ def longestPalindrome(string: str) -> str:
 
 ### Count Palindromic Substrings
 ```python
-def count_palindromic_substrings(self, s: str) -> int:
+def count_palindromic_substrings(s: str) -> int:
     def expand_around_center(left: int, right: int) -> int:
         count = 0
         while left >= 0 and right < len(s) and s[left] == s[right]:

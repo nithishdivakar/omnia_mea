@@ -3,7 +3,7 @@
 ## Edit distance
 - `cost[i][j]` = the minimum edit distance (or the minimum number of operations) required to transform the first i characters of word1 into the first j characters of word2.
 ```python
-def minDistance(self, word1: str, word2: str) -> int:
+def edit_distance(word1: str, word2: str) -> int:
     # Define the costs for operations
     costs = {'insert': 1, 'delete': 1, 'substitute': 1}
     m, n = len(word1), len(word2)

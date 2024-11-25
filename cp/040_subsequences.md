@@ -5,7 +5,7 @@
 
     > Find the length of longest increasing subsequence ending at i. 
     ```python
-    def length_of_lis(nums: List[int) -> int:
+    def length_of_lis(nums: List[int]) -> int:
         if not nums: return 0
         max_length = [1] * len(nums)
         for i in range(1, len(nums)):
@@ -22,7 +22,7 @@
     ```python
     from bisect import bisect_left
     
-    def length_of_LIS(nums):
+    def length_of_LIS(nums: List[int]) -> int:
         if not nums: return 0
         tails = []
         for num in nums:
@@ -40,7 +40,7 @@
     -  `dp[i][j]` contains length of longest subsequence by using first `i-1` characters of first string and `j-1` characters of second string.
     -  `dp[i][0] = 0` and `dp[0][j] = 0`
     ```python
-    def longest_common_subsequence(X, Y):
+    def longest_common_subsequence(X, Y) -> int:
         m = len(X)
         n = len(Y)
         
@@ -65,7 +65,7 @@
 
 3. with space optimisation
     ```python
-    def longest_common_subsequence(self, text1: str, text2: str) -> int:
+    def longest_common_subsequence(text1: str, text2: str) -> int:
         if len(text2) > len(text1):
             return longest_common_subsequence(text2, text1)
     

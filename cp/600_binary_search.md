@@ -5,6 +5,7 @@
 #       │     <     │ = │     >      │      
 #       └───────────┴───┴────────────┘                                  
 
+```python
 L, R = 0, N-1
 
 while L <= R:
@@ -16,7 +17,7 @@ while L <= R:
   else:
     L = mid + 1
 return -1
-
+```
 
 # II.
 # Binary search pattern when we are searching for
@@ -26,6 +27,7 @@ return -1
 #   └───┴───┴───┴───┴───┴───┴───┴───┘   
 #                 └── ans 
 
+```python
 L, R = 0, N-1
 ans = -1
 
@@ -37,3 +39,4 @@ while L <= R:
   else:
     L = mid + 1
 return ans
+```
