@@ -4,9 +4,9 @@
 ## Min meeting rooms
 We are given meeting times in intervals. Find minimum no of meeting rooms required.
 
-- Sort by start time
-- Keep all the overlapping ending times in a min heap
-- If the top ending time is past, you can pop it.
+- Sort all meetings by their start time
+- Keep the ending times of currently occupied meeting rooms in the min heap
+- If current start time is earlier than the min heap end time, we need a new room else we can pop the top and add a new room
 
 ```python
 def min_meeting_rooms(intervals: List[List[int]]) -> int:
