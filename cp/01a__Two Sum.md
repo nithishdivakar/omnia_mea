@@ -1,33 +1,38 @@
 ## Two sum [LC#1]
-Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
-You can return the answer in any order.
+Given an array of integers `nums` and an `integer` target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
 
-- Sorting and two pointers
-    ```python
-    def two_sum(nums: List[int], target:Int) -> Tuple[int, int]:
-        A  = sorted([(n, i) for i, n in enumerate(nums)])
-        left, right = 0, len(A) - 1
+
+**Sorting and two pointers**
+- $T(n) = O(n \log n)$; $S(n) = O(n)$
+```python
+def two_sum(nums: List[int], target:Int) -> Tuple[int, int]:
+    indexed_nums  = sorted((n, i) for i, n in enumerate(nums))
+    left, right = 0, len(indexed_nums) - 1
+    
+    while left < right:
+        current_sum = indexed_nums[left][0] + indexed_nums[right][0]
         
-        while left < right:
-            curr_sum = A[left][0] + A[right][0]
-            if curr_sum == target: return (A[left][1], A[right][1])
-            if curr_sum < target:
-                left = left + 1
-            else:
-                right = right - 1
-        return (-1, -1)
+        if current_sum == target:
+            return (indexed_nums[left][1], indexed_nums[right][1])
+        elif current_sum < target:
+            left += 1
+        else:
+            right -= 1
 
-    ```
-- Hashset
-    ```python
-    def two_sum(nums: List[int], target: int) -> Tuple[int, int]:
-        lut = {}
-        for i, n in enumerate(nums):
-            residue = target - n
-            if residue in lut:
-                return (i, lut[residue])
-            lut[n] = i
-        return (-1, -1)
-    ```
+    return (-1, -1)
+
+```
+
+**Hashset**
+- $T(n) = O(n)$; $S(n) = O(n)$
+```python
+def two_sum(nums: List[int], target: int) -> Tuple[int, int]:
+    num_to_idx = {}
+    for i, num in enumerate(nums):
+        residue = target - num
+        if residue in lut:
+            return (i, num_to_idx[residue])
+        num_to_idx[num] = i
+    return (-1, -1)
+```
 
