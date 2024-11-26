@@ -40,7 +40,7 @@
         - [ ] 06a03__Post Order
         - [ ] 06a04__Level Order
         - [x] 06a05__Binary Tree from its Traversals
-    - [ ] 06b__Binary Tree Maximum Path Sum
+    - [x] 06b__Binary Tree Maximum Path Sum
     - [ ] 06c__Lowest Common Ancestor
         - [x] 06c01__In a Binary Tree
         - [ ] 06c02__In a Binary Search Tree
