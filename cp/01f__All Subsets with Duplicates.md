@@ -1,4 +1,4 @@
-## All Subsets with duplicates [LC 90]
+## All Subsets with duplicates [LC#90]
 - We consider elements with duplicate as 1 element
 - when we need to add this element to subset, we add the on per each frequency
 ```python

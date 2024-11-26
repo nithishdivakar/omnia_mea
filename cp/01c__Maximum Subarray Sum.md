@@ -1,4 +1,4 @@
-## Maximum Subarray Sum [LC 53]
+## Maximum Subarray Sum [LC#53]
 - Kadane's algorithm
 - find the max sum of subarray ending at location `i`.
 - $T(n) = O(n)$

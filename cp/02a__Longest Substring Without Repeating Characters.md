@@ -1,4 +1,6 @@
-## Longest Substring Without Repeating Characters [LC 3]
+## Longest Substring Without Repeating Characters [LC#3]
+> Given a string `s`, find the length of the longest substring without repeating characters.
+
 
 - Sliding Window (2 pointers)
     - Keep track of character counts. Whenever a character count goes more than 1, retract the window until count goes below 1   

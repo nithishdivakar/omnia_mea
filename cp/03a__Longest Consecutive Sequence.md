@@ -1,4 +1,4 @@
-## Longest Consecutive Sequence [LC 128]
+## Longest Consecutive Sequence [LC#128]
 - For each num, if num-1 is not in the list, then its possibly a sequence's begning
 - For each sequence begning, check if conseqtive elements are in the list
 - Each valid sequence is tested once
