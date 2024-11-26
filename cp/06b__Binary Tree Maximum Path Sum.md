@@ -6,9 +6,10 @@ The path sum of a path is the sum of the node's values in the path.
 
 Given the root of a binary tree, return the maximum path sum of any non-empty path.
 
+**Depth first traversal**
 - The answer is inspired from  from Kadane's algorithm for max array sum
 - At every node, we are looking for what is max path sum of the path ending at the node and containing only the node's children.
-- On e we have that for both children, we can also calculate the max path sum of the path passing through the node.
+- Once we have that for both children, we can also calculate the max path sum of the path passing through the node.
 - Keep track of the maximum of such path sum's
 - $T(n) = O(n)$; $S(n) = O(1)$
 
