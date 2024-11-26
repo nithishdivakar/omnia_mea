@@ -1,7 +1,10 @@
 ## Maximum Subarray Sum [LC#53]
-- Kadane's algorithm
-- find the max sum of subarray ending at location `i`.
-- $T(n) = O(n)$
+Given an integer array `nums`, find the subarray with the largest sum, and return its sum.
+
+
+**Kadane's algorithm**
+- Find the max sum of subarray ending at location `i`.
+- $T(n) = O(n)$; $S(n) = O(1)$
 
 ```python
 def max_subarray_sum(nums: List[int]) -> int:
