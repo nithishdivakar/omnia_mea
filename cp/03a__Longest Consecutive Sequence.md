@@ -1,6 +1,15 @@
 ## Longest Consecutive Sequence [LC#128]
 Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.
 
+**Brute Force**
+- Consider each element as seed. 
+- Check if next element in the sequece is in the list. keep track of sequence length
+- $T(n) = O(n^3)$; $S(n) = O(1)$
+
+**Sorting**
+- Sort the array.
+- Check the length of longest conseqtive sequence
+- $T(n) = O(n log n)$; $S(n) = O(n)$
 
 **Hash Table based look up**
 - For each num, if num-1 is not in the list, then its possibly a sequence's begning
