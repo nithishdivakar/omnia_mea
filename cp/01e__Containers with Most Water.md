@@ -1,8 +1,9 @@
 ## Containers with most water [LC 11]
-Given n non-negative integers a1, a2, ..., an , where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of the line i is at (i, ai) and (i, 0). Find two lines, which, together with the x-axis forms a container, such that the container contains the most water.
+Given $n$ non-negative integers $a_1$, $a_2$, ... , $a_n$ , where each represents a point at coordinate $(i, a_i)$. $n$ vertical lines are drawn such that the two endpoints of the line $i$ is at $(i, a_i)$ and $(i, 0)$. Find two lines, which, together with the x-axis forms a container, such that the container contains the most water.
+
 - Limiting factor of volume of water between 2 walls is the smaller one.
-- Given a wall, once we find a farthest wall that is atleast same height or more, no other closer, taller wall could hold more water.
-- So given 2 pairs of walls, we can move close from the smaller wall in hope to find a larger volume area
+- So given 2 walls, the volume of water between them is limited by the smaller wall. So we can move inwards from the smaller wall.
+- This can be implemented using a 2 pointer approach closing in from both ends.
 - $T(n) = O(n)$
 ```python
 def max_water(height: List[int]) -> int:
