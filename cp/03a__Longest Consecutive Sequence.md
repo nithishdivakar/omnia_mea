@@ -2,6 +2,8 @@
 - For each num, if num-1 is not in the list, then its possibly a sequence's begning
 - For each sequence begning, check if conseqtive elements are in the list
 - Each valid sequence is tested once
+- $T(n) = O(n)$
+- $S(n) = O(n)$
 ```python
 def longestconsecutive_sequence(nums: List[int]) -> int:
     entries = set(nums)
@@ -15,5 +17,3 @@ def longestconsecutive_sequence(nums: List[int]) -> int:
             best = max(best, seq_len)
     return best
 ```
-- $T(n) = O(n)$
-- $S(n) = O(n)$

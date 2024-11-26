@@ -18,9 +18,9 @@
         - [ ] 02e02__Count Palindromic Substrings
         - [ ] 02e03__Palindromic Partition
 - [ ] 03__Sequences
-    - [ ] 03a__Longest Consecutive Sequence
-    - [ ] 03b__Longest Increasing Subsequence
-    - [ ] 03c__Longest Common Subsequence
+    - [x] 03a__Longest Consecutive Sequence
+    - [x] 03b__Longest Increasing Subsequence
+    - [x] 03c__Longest Common Subsequence
     - [ ] 03d__Longest Palindromic Subsequence
 - [ ] 04__Intervals
     - [ ] 04a__Merge Intervals
@@ -29,8 +29,8 @@
 - [ ] 05__Linked List
     - [x] 05a__Reversing a Linked List
     - [ ] 05b__Remove Nth Node From End of List
-    - [ ] 05c__Merging Two Sorted Linked Lists
-    - [ ] 05e__Merge K Sorted Lists
+    - [s] 05c__Merging Two Sorted Linked Lists
+    - [x] 05e__Merge K Sorted Lists
     - [x] 05f__Detecting a Cycle in Linked List
     - [ ] 05g__Implementing LRU Cache
 - [ ] 06__Trees
