@@ -1,11 +1,15 @@
 ## Longest Consecutive Sequence [LC#128]
+Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.
+
+
+**Hash Table based look up**
 - For each num, if num-1 is not in the list, then its possibly a sequence's begning
 - For each sequence begning, check if conseqtive elements are in the list
 - Each valid sequence is tested once
 - $T(n) = O(n)$
 - $S(n) = O(n)$
 ```python
-def longestconsecutive_sequence(nums: List[int]) -> int:
+def longest_consecutive_sequence(nums: List[int]) -> int:
     entries = set(nums)
     best = 0
     for num in nums:
