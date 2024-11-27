@@ -14,7 +14,7 @@ a.todo{
 <ul style="font-family:monospace">
 {% for note in site.notes %}
   <li>
-    <a href="{{ note.url }}" class="{{ note.status }}">
+    <a href="{{ site.url }}{{ note.url }}" class="{{ note.status }}">
       {{ note.name }}
     </a>
   </li>
