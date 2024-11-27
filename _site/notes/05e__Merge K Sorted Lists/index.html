@@ -1,0 +1,15 @@
+<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>05e__Merge K Sorted Lists | Notes</title><meta name="description" content="while True: continue"><link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon"><link rel="icon" href="/assets/favicon.ico" type="image/x-icon"><link href='/feed.xml' rel='alternate' type='application/atom+xml'><link rel="canonical" href="/notes/05e__Merge%20K%20Sorted%20Lists/"><link rel="stylesheet" href="/assets/style.css"><body><main> <!--<h2 class="title">Notes</h2>--><nav> <a href="http://localhost:4000">Notes</a> <a href="http://localhost:4000">Home</a> <!-- <a href="http://localhost:4000/assets/resume.pdf">Resume</a> <a href="http://localhost:4000dd">RRR</a> <a href="https://duckduckgo.com">[Search]</a> --></nav><!--<h1>05e__Merge K Sorted Lists</h1><i>Jan 01, 2024</i><h4 class="subtitle"></h4>--><h2 id="merge-k-sorted-lists-lc23">Merge k Sorted Lists [LC#23]</h2><p>You are given an array of <code class="language-plaintext highlighter-rouge">k</code> linked-lists lists, each linked-list is sorted in ascending order. Merge all the linked-lists into one sorted linked-list and return it.</p><p><strong>Brute-Force</strong></p><ul><li>Merge all lists into one and sort the list<li>$T(n) = O(n log n)$ ; $S(n) = O(n)$</ul><p><strong>Priority Queue or Min Heap</strong></p><ul><li>Create a min heap with first values of all the lists<li>Repeatedly pop the root of min heap, add to the answer and push the next value of the list where root was from to the heap<li>$T(n) = O(k + n log k)$ heapify + n pop root<li>$S(n) = O(k)$ for the heap ```python</ul><p>def merge_sorted_lists(lists: List[Optional[ListNode]]) -&gt; Optional[ListNode]: class HeapNode: def <strong>init</strong>(self, node: ListNode): self.node = node def <strong>lt</strong>(self, other): return self.node.val &lt; other.node.val</p><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>heap = []
+current = dummy = ListNode(0)
+for lst in lists:
+    if lst:
+        heapq.heappush(heap, HeapNode(lst))
+
+while heap:
+    node = heapq.heappop(heap).node
+    current.next = node
+    current = current.next
+    if node.next:
+        heapq.heappush(heap, HeapNode(node.next))
+
+return dummy.next ```
+</code></pre></div></div><p><strong>Iterative Mergesort on sorted lists</strong></p><ul><li>Take 2 pairs of list and sort them together<li>Do this iteratively until there is only 1 left<li>$T(n) = O(n + n/2 + n/4 + … +n/k) = O(n log k)$<li>$S(n) = O(1)$</ul></main><footer> <a href="/">← Back to all notes</a></footer><!-- <script type="text/x-mathjax-config"> MathJax.Hub.Config({ extensions: ["tex2jax.js", "TeX/AMSmath.js"], jax: ["input/TeX", "output/SVG"], }) </script> <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=default"> </script> -->
