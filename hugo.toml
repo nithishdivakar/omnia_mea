@@ -1,0 +1,12 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Notes'
+theme = 'hugo-book'
+[params]
+  BookTheme = 'light'
+  BookToC = true
+  BookSection = '*'
+  BookDateFormat = 'Jan 2, 2006'
+
+[markup.goldmark.extensions]
+  KaTeX = true
