@@ -6,9 +6,8 @@ layout: default
 ---
 
 <style>
-a.todo{
-    color:red;
-}
+a.todo { color:red; }
+a.doing { color:green; }
 </style>
 
 <ul style="font-family:monospace">

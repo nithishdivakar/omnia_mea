@@ -3,6 +3,7 @@ layout: post
 title:  "09d__subsetsum to knapsack"
 date:   2024-01-01 00:00:00 +0000
 categories: 
+status: doing
 ---
 
 

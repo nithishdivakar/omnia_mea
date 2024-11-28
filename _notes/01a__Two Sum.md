@@ -29,7 +29,6 @@ def two_sum(nums: List[int], target:Int) -> Tuple[int, int]:
             right -= 1
 
     return (-1, -1)
-
 ```
 
 **Hashset**

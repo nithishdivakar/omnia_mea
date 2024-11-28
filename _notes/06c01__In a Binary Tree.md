@@ -3,7 +3,7 @@ layout: post
 title:  "06c01__In a Binary Tree"
 date:   2024-01-01 00:00:00 +0000
 categories: 
-status: todo
+status: doing
 ---
 
 

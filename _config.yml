@@ -69,3 +69,6 @@ special_links:
 highlighter: rouge
 
 markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM

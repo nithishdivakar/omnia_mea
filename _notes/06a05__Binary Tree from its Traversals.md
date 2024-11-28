@@ -3,7 +3,7 @@ layout: post
 title:  "06a05__Binary Tree from its Traversals"
 date:   2024-01-01 00:00:00 +0000
 categories: 
-status: todo
+status: doing
 ---
 
 ## Construct a binary tree from its in and pre prder traversals
