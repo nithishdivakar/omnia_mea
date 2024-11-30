@@ -1,10 +1,11 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 02d
 layout: post
-title:  "02d__Edit Distances"
-date:   2024-01-01 00:00:00 +0000
-categories: 
+title: 02d Edit Distances
 ---
-  
+
 ## Edit distance
 - `cost[i][j]` = the minimum edit distance (or the minimum number of operations) required to transform the first i characters of word1 into the first j characters of word2.
 ```python

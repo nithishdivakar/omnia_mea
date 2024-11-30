@@ -1,12 +1,11 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 05f
 layout: post
-title:  "05f__Detecting a Cycle in Linked List"
-date:   2024-01-01 00:00:00 +0000
-categories: 
+title: 05f Detecting a Cycle in Linked List
 ---
 
-
-  
 ## Cycle detection
 - Turtle and hare algorithm
 It relies on the fact that if two pointers are moving at different speeds within a cycle, their distances will reach a max length before being reset to zero at which point they will point to the same element. 

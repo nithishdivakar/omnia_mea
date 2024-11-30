@@ -1,8 +1,9 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 02e01
 layout: post
-title:  "02e01__Longest Palindromic Substring"
-date:   2024-01-01 00:00:00 +0000
-categories: 
+title: 02e01 Longest Palindromic Substring
 ---
 
 ## Longest Palindromic Substring
@@ -27,4 +28,4 @@ def longestPalindrome(string: str) -> str:
     return longest
 ```
 - $T(n) = O(n^2)$
-- $S(n) = O(1)$ 
+- $S(n) = O(1)$

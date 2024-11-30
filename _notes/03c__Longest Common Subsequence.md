@@ -1,11 +1,11 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 03c
 layout: post
-title:  "03c__Longest Common Subsequence"
-date:   2024-01-01 00:00:00 +0000
-categories: 
+title: 03c Longest Common Subsequence
 ---
 
-  
 ## Longest Common Subsequence
 
 **Dynamic programming approach**

@@ -1,9 +1,10 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 01f
 layout: post
-title:  "01f__All Subsets with Duplicates"
-date:   2024-01-01 00:00:00 +0000
-categories: 
 status: todo
+title: 01f All Subsets with Duplicates
 ---
 
 ## All Subsets with duplicates [LC#90]

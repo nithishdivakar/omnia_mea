@@ -1,10 +1,10 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 07c02
 layout: post
-title:  "07c02__DFS like Topological Sort"
-date:   2024-01-01 00:00:00 +0000
-categories: 
+title: 07c02 DFS like Topological Sort
 ---
-
 
 ## DFS like topological sort
 ```python

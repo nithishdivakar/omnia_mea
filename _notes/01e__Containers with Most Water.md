@@ -1,8 +1,9 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 01e
 layout: post
-title:  "01e__Containers with Most Water"
-date:   2024-01-01 00:00:00 +0000
-categories: 
+title: 01e Containers with Most Water
 ---
 
 ## Containers with most water [LC#11]
@@ -29,4 +30,3 @@ Given $n$ non-negative integers $a_1$, $a_2$, ... , $a_n$ , where each represent
                 right -= 1
         return max_area
     ```
-

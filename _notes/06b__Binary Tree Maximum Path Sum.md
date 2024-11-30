@@ -1,9 +1,10 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 06b
 layout: post
-title:  "06b__Binary Tree Maximum Path Sum"
-date:   2024-01-01 00:00:00 +0000
-categories: 
 status: done
+title: 06b Binary Tree Maximum Path Sum
 ---
 
 ## Binary Tree Maximum Path Sum [LC#124]

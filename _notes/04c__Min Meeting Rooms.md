@@ -1,12 +1,12 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 04c
 layout: post
-title:  "04c__Min Meeting Rooms"
-date:   2024-01-01 00:00:00 +0000
-categories: 
 status: todo
+title: 04c Min Meeting Rooms
 ---
 
-  
 ## Min meeting rooms
 We are given meeting times in intervals. Find minimum no of meeting rooms required.
 

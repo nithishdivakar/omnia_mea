@@ -1,8 +1,9 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 01a
 layout: post
-title:  "01a__Two Sum"
-date:   2024-01-01 00:00:00 +0000
-categories: 
+title: 01a Two Sum
 ---
 
 ## Two sum [LC#1]
@@ -45,4 +46,3 @@ def two_sum(nums: List[int], target: int) -> Tuple[int, int]:
         num_to_idx[num] = i
     return (-1, -1)
 ```
-

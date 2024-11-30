@@ -1,8 +1,10 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 07f
 layout: post
-title:  "07f__Minimum Spanning Tree"
-date:   2024-01-01 00:00:00 +0000
-categories: 
 status: todo
+title: 07f Minimum Spanning Tree
 ---
 
+## Minimum Spanning Tree

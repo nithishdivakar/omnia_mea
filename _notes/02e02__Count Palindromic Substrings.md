@@ -1,8 +1,9 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 02e02
 layout: post
-title:  "02e02__Count Palindromic Substrings"
-date:   2024-01-01 00:00:00 +0000
-categories: 
+title: 02e02 Count Palindromic Substrings
 ---
 
 ## Count Palindromic Substrings
@@ -27,4 +28,4 @@ def count_palindromic_substrings(s: str) -> int:
     return count
 ```
 - $T(n) = O(n^2)$
-- $S(n) = O(1)$ 
+- $S(n) = O(1)$

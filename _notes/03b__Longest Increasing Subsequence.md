@@ -1,11 +1,11 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 03b
 layout: post
-title:  "03b__Longest Increasing Subsequence"
-date:   2024-01-01 00:00:00 +0000
-categories: 
+title: 03b Longest Increasing Subsequence
 ---
 
-  
 ## Longest Increasing Subsequence
 
 **Dynamic programming approach**

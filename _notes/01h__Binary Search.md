@@ -1,16 +1,20 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 01h
 layout: post
-title:  "01h__Binary Search"
-date:   2024-01-01 00:00:00 +0000
-categories: 
+title: 01h Binary Search
 ---
 
-# I.
-# Binary search pattern when we are searching for a target
-# in an ordered array with element w.r.to target like                                                     
-#       ┌───────────┬───┬────────────┐      
-#       │     <     │ = │     >      │      
-#       └───────────┴───┴────────────┘                                  
+## Binary Search
+I.
+
+Binary search pattern when we are searching for a target in an ordered array with element w.r.to target like       
+```                                            
+  ┌───────────┬───┬────────────┐      
+  │     <     │ = │     >      │      
+  └───────────┴───┴────────────┘                                  
+```
 
 ```python
 L, R = 0, N-1
@@ -26,13 +30,15 @@ while L <= R:
 return -1
 ```
 
-# II.
-# Binary search pattern when we are searching for
-# the first/smallest valid position when the array is like                                   
-#   ┌───┬───┬───┬───┬───┬───┬───┬───┐      
-#   │ f │ f │ f │ t │ t │ t │ t │ t │     
-#   └───┴───┴───┴───┴───┴───┴───┴───┘   
-#                 └── ans 
+II.
+
+Binary search pattern when we are searching for the first/smallest valid position when the array is like   
+```                                
+  ┌───┬───┬───┬───┬───┬───┬───┬───┐      
+  │ f │ f │ f │ t │ t │ t │ t │ t │     
+  └───┴───┴───┴───┴───┴───┴───┴───┘   
+                └── ans 
+```
 
 ```python
 L, R = 0, N-1

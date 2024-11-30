@@ -1,8 +1,9 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 05c
 layout: post
-title:  "05c__Merging Two Sorted Linked Lists"
-date:   2024-01-01 00:00:00 +0000
-categories: 
+title: 05c Merging Two Sorted Linked Lists
 ---
 
 ## Merge Two Sorted Lists [LC#21]
@@ -36,4 +37,4 @@ def merge_two_worted_lists(list1: Optional[ListNode], list2: Optional[ListNode])
       current.next = list1 if list1 else list2
       
       return fake_head.next
-```        
+```

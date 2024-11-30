@@ -1,8 +1,9 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 04a
 layout: post
-title:  "04a__Merge Intervals"
-date:   2024-01-01 00:00:00 +0000
-categories: 
+title: 04a Merge Intervals
 ---
 
 ## Merge Intervals [LC#56]

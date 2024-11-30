@@ -1,9 +1,10 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 01c
 layout: post
-title:  "01c__Maximum Subarray Sum"
-date:   2024-01-01 00:00:00 +0000
-categories: 
 status: todo
+title: 01c Maximum Subarray Sum
 ---
 
 ## Maximum Subarray Sum [LC#53]
@@ -22,4 +23,3 @@ def max_subarray_sum(nums: List[int]) -> int:
         ans = max(ans, curr)
     return ans
 ```
-

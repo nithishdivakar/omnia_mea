@@ -1,13 +1,12 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 07e02
 layout: post
-title:  "07e02__Bellman-Ford Algorithm"
-date:   2024-01-01 00:00:00 +0000
-categories: 
 status: done
+title: 07e02 Bellman-Ford Algorithm
 ---
 
-
-  
 ## Bellman-Ford
 ```python
 def bellman_ford(graph, source):

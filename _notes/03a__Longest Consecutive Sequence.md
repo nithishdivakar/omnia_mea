@@ -1,10 +1,10 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 03a
 layout: post
-title:  "03a__Longest Consecutive Sequence"
-date:   2024-01-01 00:00:00 +0000
-categories: 
+title: 03a Longest Consecutive Sequence
 ---
-
 
 ## Longest Consecutive Sequence [LC#128]
 Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.

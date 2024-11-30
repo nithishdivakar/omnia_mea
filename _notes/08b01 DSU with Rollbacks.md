@@ -1,10 +1,12 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 08b01
 layout: post
-title:  "08b01 DSU with Rollbacks"
-date:   2024-01-01 00:00:00 +0000
-categories: 
+title: 08b01 DSU with Rollbacks
 ---
 
+## DSU with Rollbacks
 
 - We do not add path compression as addition of roll back will results in unnecessary operations. This results in O(log n) for find (due to merge by rank)
 

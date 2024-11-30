@@ -1,10 +1,10 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 05a
 layout: post
-title:  "05a__Reversing a Linked List"
-date:   2024-01-01 00:00:00 +0000
-categories: 
+title: 05a Reversing a Linked List
 ---
-
 
 # Reversing a linked list iterative
 
@@ -20,4 +20,3 @@ def fn(head):
         
     return prev
 ```
-

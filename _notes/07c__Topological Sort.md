@@ -1,9 +1,10 @@
 ---
+categories: null
+date: 2024-01-01 00:00:00 +0000
+index: 07c
 layout: post
-title:  "07c__Topological Sort"
-date:   2024-01-01 00:00:00 +0000
-categories: 
 status: todo
+title: 07c Topological Sort
 ---
 
-
+## Topological Sort
