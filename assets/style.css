@@ -161,10 +161,12 @@ code {
 }
 
 blockquote {
-    border-left: 1px solid #999;
+    border-left: 1.5px solid #e91e63;
     color: #222;
     padding-left: 20px;
-    font-style: italic;
+    /* font-style: italic; */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 footer {
@@ -416,4 +418,9 @@ small a {
 
 ul {
     padding-inline-start: 20px;
+}
+
+div.highlight {
+    padding: 0px;
+    border: 1px solid #e4e4e4;
 }
