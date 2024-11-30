@@ -3,6 +3,7 @@ categories: null
 date: 2024-01-01 00:00:00 +0000
 index: 01h
 layout: post
+status: doing
 title: 01h Binary Search
 ---
 
@@ -18,13 +19,13 @@ Binary search pattern when we are searching for a target in an ordered array wit
 L, R = 0, N-1
 
 while L <= R:
-  mid = L + (R-L)//2
-  if a[mid] == target:
-    return mid
-  if a[mid] > target:
-    R = mid - 1
-  else:
-    L = mid + 1
+    mid = L + (R-L)//2
+    if a[mid] == target:
+        return mid
+    if a[mid] > target:
+        R = mid - 1
+    else:
+        L = mid + 1
 return -1
 ```
 
@@ -42,11 +43,11 @@ L, R = 0, N-1
 ans = -1
 
 while L <= R:
-  mid = L + (R-L)//2
-  if is_valid(mid):
-    ans = mid
-    R = mid - 1
-  else:
-    L = mid + 1
+    mid = L + (R-L)//2
+    if is_valid(mid):
+        ans = mid
+        R = mid - 1
+    else:
+        L = mid + 1
 return ans
 ```

@@ -33,10 +33,8 @@ a.doing { color:green; }
 <div class="container">
     <div class="notes">
     {% for note in site.notes %}
-        <!-- <br><br>
-        {{ note.name }} -->
-        <!-- <br> -->
-        <div id="{{ note.index }}" class="note">
+        <div class="note">
+        <a href="#{{ note.index }}" id="{{ note.index }}">·</a>
         {{ note.content }}
         </div>  
     {% endfor %}

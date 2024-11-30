@@ -170,7 +170,7 @@ blockquote {
 }
 
 footer {
-    padding: 25px 0;
+    /* padding: 25px 0; */
     text-align: left;
 }
 
@@ -347,7 +347,7 @@ small a {
 }
 
 .bottom-footer {
-    padding: 50px;
+    /* padding: 50px; */
     text-align: center;
 }
 
