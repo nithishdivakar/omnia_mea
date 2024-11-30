@@ -5,43 +5,18 @@
 layout: default
 ---
 
-<style>
-a.todo { color:red; }
-a.doing { color:green; }
-.container{
-    display: grid;
-    grid-template-areas: 
-    "middle right";
-    grid-template-columns: 600px 300px;
-    column-gap:20px;
-}
-.notes {
-    grid-area: middle;
-    height: 95vh;
-    overflow: scroll;
-}
-.toc {
-    grid-area: right;
-    overflow: scroll;
-    height: 95vh;
-}
-.note{
-    margin-bottom: 25px;
-}
-
-</style>
 <div class="container">
     <div class="notes">
     {% for note in site.notes %}
-        <div class="note">
-        <a href="#{{ note.index }}" id="{{ note.index }}">·</a>
+        <div class="note"  id="{{ note.index }}">
+        <!-- <a href="#{{ note.index }}" id="{{ note.index }}">·</a> -->
         {{ note.content }}
         </div>  
     {% endfor %}
     </div>
     <div class="toc">
-    <b>Table of Contents</b>
-        <ul style="font-family:monospace">
+        <h3> Table of Contents </h3>
+        <ul style="font-size: smaller;">
         {% for note in site.notes %}
             <li>
                 <a href="#{{ note.index }}" class="{{ note.status }}">{{ note.title }}</a>
