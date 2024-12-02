@@ -3,11 +3,14 @@ categories: null
 date: 2024-01-01 00:00:00 +0000
 index: 09d
 layout: post
-status: doing
+status: done
 title: 09d subsetsum to knapsack
 ---
 
 ## Reducing subset sum to 0/1 knapsack
+**Intuition**
+
+The Subset Sum problem can be reduced to the 0/1 Knapsack problem by treating the elements of the set as both the weights and values of the items. Given a target sum, we can construct a 0/1 Knapsack with target sum as the capacity and if the the maximum value of the knapsack is equal to the target sum, the selected items form the required subset.
 
 ```python
 def subset_sum(nums: List[int], target: int) -> bool:

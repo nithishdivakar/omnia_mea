@@ -107,6 +107,7 @@ nav{
 
 a.todo { color:#e91e63; }
 a.doing { color:green; }
+a.done { color:blue; }
 .container{
     display: grid;
     grid-template-areas: 
