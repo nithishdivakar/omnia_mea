@@ -24,14 +24,15 @@ for num in nums:
 Although a monotonic stack can be used to solve problems that require finding previous smaller (or larger) elements from the stack, a more interesting use is to exploit the interim states of the monotonic stack while it updates itself to maintain the property of monotonicity. Ex.
 
 ```python
-index_stack = [-1]
+stack = []
+arr.append(-math.inf) # to ensure all elements are processed
 for idx range(len(arr)):
-    while index_stack and heights[stack[-1]] >= arr[i]:
-        mid = index_stack.pop()
-        left = index_stack[-1]
+    while stack and arr[stack[-1]] <= arr[i]:
+        mid = stack.pop()
+        left = -1 if not stack else stack[-1]
         right = i
-        # do something with arr[left] < a[mid] > a[right]
-    index_stack.append(idx)
+        # do something with arr[left] > a[mid] < a[right]
+    stack.append(idx)
 ```
 
 References 
