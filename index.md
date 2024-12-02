@@ -9,8 +9,11 @@ layout: default
     <div class="notes">
     {% for note in site.notes %}
         <div class="note"  id="{{ note.index }}">
-        <!-- <a href="#{{ note.index }}" id="{{ note.index }}">·</a> -->
+        <a href="#{{ note.index }}" id="{{ note.index }}"></a>
         {{ note.content }}
+        {% if note.status=='todo' %}
+            (todo)
+        {% endif %}
         </div>  
     {% endfor %}
     </div>
