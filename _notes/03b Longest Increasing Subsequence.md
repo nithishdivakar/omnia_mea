@@ -7,7 +7,10 @@ status: done
 title: 03b Longest Increasing Subsequence
 ---
 
-## Longest Increasing Subsequence
+## Longest Increasing Subsequence [LC#300]
+> Given an integer array nums, return the length of the longest strictly increasing subsequence.
+
+ 
 
 **Dynamic programming approach**
 - Find the length of longest increasing subsequence ending at i. 
@@ -21,6 +24,7 @@ title: 03b Longest Increasing Subsequence
                     max_length[i] = max(max_length[i], max_length[j] + 1)
         return max(max_length)
     ```
+- $T(n) + O(n^2)$; $S(n) = O(n)$
 
 **Technique based on [patience sorting](https://www.cs.princeton.edu/courses/archive/spring13/cos423/lectures/LongestIncreasingSubsequence.pdf)**
 - If the number is larger than the largest element in the temporary array, append it. Otherwise, replace the found position with the current number.
@@ -40,3 +44,4 @@ title: 03b Longest Increasing Subsequence
                 tails[pos] = num
         return len(tails)
     ```
+- $T(n) = O(n log(n))$; $S(n) = O(n)$

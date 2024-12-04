@@ -7,9 +7,14 @@ status: done
 title: 02e01 Longest Palindromic Substring
 ---
 
-## Longest Palindromic Substring
+## Longest Palindromic Substring [LC#5]
+> Given a string s, return the longest  palindromic substring in s.
+
+**Intuition**
 
 Expand around Center
+
+**Code**
 ```python
 def longestPalindrome(string: str) -> str:
     def expand_around_center(left: int, right: int, string: str) -> str:
@@ -28,5 +33,6 @@ def longestPalindrome(string: str) -> str:
         )
     return longest
 ```
+**Time Complexity**
 - $T(n) = O(n^2)$
 - $S(n) = O(1)$

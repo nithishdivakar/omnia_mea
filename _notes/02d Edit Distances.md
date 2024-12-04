@@ -7,8 +7,16 @@ status: done
 title: 02d Edit Distances
 ---
 
-## Edit distance
-- `cost[i][j]` = the minimum edit distance (or the minimum number of operations) required to transform the first i characters of word1 into the first j characters of word2.
+## Edit Distance [LC#72]
+> Given two strings word1 and word2, return the minimum number of operations required to convert word1 to word2. You have the following three operations permitted on a word:
+> - Insert a character
+> - Delete a character
+> - Replace a character
+
+**Intuition**
+Let `cost[i][j]` is the minimum edit distance (or the minimum number of operations) required to transform the first `i` characters of word1 into the first `j` characters of word2.
+
+**Dynamic Programming** 
 ```python
 def edit_distance(word1: str, word2: str) -> int:
     # Define the costs for operations

@@ -11,19 +11,19 @@ title: 05c Merging Two Sorted Linked Lists
 
 You are given the heads of two sorted linked lists list1 and list2. Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists.
 Return the head of the merged linked list.
-```
+```python
 # Definition for singly-linked list.
+@dataclass
 class ListNode:
-     def __init__(self, val=0, next=None):
-         self.val = val
-         self.next = next
+    val: int = 0
+    next: Optional[ListNode] = None
 ```
 
 **Iterate and Merge**
 - $T(n) = O(m+n)$; $S(n) = O(1)$
 
 ```python
-def merge_two_worted_lists(list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+def merge_two_sorted_lists(list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
       fake_head = ListNode()
       current = fake_head
       

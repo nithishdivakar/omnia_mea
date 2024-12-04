@@ -8,7 +8,7 @@ title: 03a Longest Consecutive Sequence
 ---
 
 ## Longest Consecutive Sequence [LC#128]
-Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.
+> Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.
 
 **Brute Force**
 - Consider each element as seed. 

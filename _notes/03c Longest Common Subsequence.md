@@ -7,7 +7,12 @@ status: done
 title: 03c Longest Common Subsequence
 ---
 
-## Longest Common Subsequence
+## Longest Common Subsequence [LC#1143]
+> Given two strings text1 and text2, return the length of their longest common subsequence. If there is no common subsequence, return 0. A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
+> 
+> For example, "ace" is a subsequence of "abcde". A common subsequence of two strings is a subsequence that is common to both strings.
+
+
 
 **Dynamic programming approach**
 -  `dp[i][j]` contains length of longest subsequence by using first `i-1` characters of first string and `j-1` characters of second string.

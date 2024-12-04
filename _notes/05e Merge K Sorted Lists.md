@@ -8,7 +8,7 @@ title: 05e Merge K Sorted Lists
 ---
 
 ## Merge k Sorted Lists [LC#23]
-You are given an array of `k` linked-lists lists, each linked-list is sorted in ascending order. Merge all the linked-lists into one sorted linked-list and return it.
+> You are given an array of `k` linked-lists lists, each linked-list is sorted in ascending order. Merge all the linked-lists into one sorted linked-list and return it.
 
 
 **Brute-Force**
@@ -20,8 +20,8 @@ You are given an array of `k` linked-lists lists, each linked-list is sorted in 
 - Repeatedly pop the root of min heap, add to the answer and push the next value of the list where root was from to the heap
 - $T(n) = O(k  + n log k)$ heapify + n pop root
 - $S(n) = O(k)$ for the heap
-```python
 
+```python
 def merge_sorted_lists(lists: List[Optional[ListNode]]) -> Optional[ListNode]:
     class HeapNode:
         def __init__(self, node: ListNode):
