@@ -68,8 +68,6 @@ ul {
 
 div.highlight {
     padding: 0px;
-    padding-top: 5px;
-    padding-bottom: 5px;
     border: 1px solid #e4e4e4;
     font-size: small;
 }
@@ -85,17 +83,17 @@ blockquote {
 
 .highlight,
 .code {
-    padding: 1px 15px;
+    padding: 15px 15px;
     color: #222;
     border-radius: 3px;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    overflow:auto;
+    overflow:auto;margin: 0px;
 }
 
 .container{
     margin:auto;
-    width: 900px;
+    max-width: 900px;
 }
 
 nav{
@@ -108,18 +106,31 @@ nav{
 a.todo { color:#e91e63; }
 a.doing { color:green; }
 a.done { color:blue; }
+
 .container{
     display: grid;
     grid-template-areas: 
     "middle right";
-    grid-template-columns: 600px 300px;
+    grid-template-columns: minmax(300px, 600px) 0px;
     column-gap:20px;
 }
+
+@media only screen and (min-width: 600px) {
+    .container{
+        display: grid;
+        grid-template-areas: 
+        "middle right";
+        grid-template-columns: minmax(300px, 600px) 300px;
+        column-gap:20px;
+    }
+}
+
 .notes {
     grid-area: middle;
     height: 95vh;
     overflow: scroll;
 }
+
 .toc {
     grid-area: right;
     overflow: scroll;

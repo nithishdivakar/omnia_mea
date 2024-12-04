@@ -27,11 +27,11 @@ layout: default
 <div class="container">
     <div class="notes">
         <div class="note">
-            [ todo: {{ todo_count }} | doing: {{ doing_count }} | done: {{ doing_count }} | other: {{ other_count }} ]
+            [ todo: {{ todo_count }} | doing: {{ doing_count }} | done: {{ done_count }} | other: {{ other_count }} ]
         </div>
     {% for note in site.notes %}
         <div class="note"  id="{{ note.index }}">
-        <a href="#{{ note.index }}" id="{{ note.index }}"></a>
+        <a href="#" id="{{ note.index }}"></a>
         {{ note.content }}
         {% if note.status=='todo' %}
             (todo)
