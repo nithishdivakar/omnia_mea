@@ -148,3 +148,13 @@ a.navitem{
     color: #006633;
     font-size: x-large;
 }
+
+.xxs{font-size: 5px;} 
+.grey{color: gray} 
+.monospace{font-family:monospace} 
+.italics{font-style: italic;}
+
+.note h1:first-of-type, .note h2:first-of-type, 
+.note h3:first-of-type, .note h4:first-of-type {
+    margin-top: 0px;
+}

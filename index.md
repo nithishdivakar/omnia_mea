@@ -32,6 +32,9 @@ layout: default
     {% for note in site.notes %}
         <div class="note"  id="{{ note.index }}">
         <a href="#" id="{{ note.index }}"></a>
+        <div style="text-align: right;height:5px">
+            <a href="#{{ note.index }}" class="xxs grey monospace">{{ note.index }}</a>
+        </div>
         {{ note.content }}
         {% if note.status=='todo' %}
             (todo)
