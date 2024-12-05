@@ -31,8 +31,9 @@ def checkSubarraySum(nums: List[int], k: int) -> bool:
     for i in range(n):
         prefix_sum = prefix_sum + nums[i]
         prefix_mod = prefix_sum % k
-        if prefix_mod in mod_seen and i - mod_seen[prefix_mod] > 1:
-            return True
+        if prefix_mod in mod_seen:
+            if i - mod_seen[prefix_mod] > 1:
+                return True
         else:
             mod_seen[prefix_mod] = i
 

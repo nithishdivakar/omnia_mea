@@ -23,7 +23,6 @@ layout: default
     {% endcase %}
 {% endfor %}
 
-
 <div class="container">
     <div class="notes">
         <div class="note">
