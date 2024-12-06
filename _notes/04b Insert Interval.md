@@ -3,7 +3,7 @@ categories: null
 date: 2024-01-01 00:00:00 +0000
 index: 04b
 layout: post
-status: todo
+status: done
 title: 04b Insert Interval
 ---
 
@@ -16,3 +16,40 @@ title: 04b Insert Interval
 >
 > Note that you don't need to modify intervals in-place. You can make a new array and return it.
 
+
+### Intuition
+Since the intervals are sorted by start time, when we loop through them in order, we will encounter 3 cases
+1. The interval ends before the new interval
+2. The interval overlaps with the new interval
+3. The interval starts after the new interval
+
+We handle each of the 3 cases separately
+
+### Code
+```python
+@dataclass
+class Interval:
+    start: float
+    end: float
+    
+def insert_interval(intervals: List[Interval], new: Interval) -> List[Interval]:
+    ans = []
+    for curr in intervals:
+        if curr.end < new.start: # ends before
+            ans.append(curr)
+        elif curr.start > new.end: # begins after
+            if new:
+                ans.append(new)
+                new = None
+            ans.append(curr)
+        else: # overlap
+            new = Interval(
+                min(curr.start, new.start), max(curr.end, new.end)
+            )
+    if new: # handle when intervals are empty
+        ans.append(new)
+    return ans
+```
+
+### Time Complexity
+$T(n) = O(n)$

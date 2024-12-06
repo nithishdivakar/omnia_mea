@@ -29,7 +29,7 @@ layout: default
             [ todo: {{ todo_count }} | doing: {{ doing_count }} | done: {{ done_count }} | other: {{ other_count }} ]
         </div>
     {% for note in site.notes %}
-        <div class="note"  id="{{ note.index }}">
+        <div class="note"  id="note_{{ note.index }}">
         <a href="#" id="{{ note.index }}"></a>
         <div style="text-align: right;height:5px">
             <a href="#{{ note.index }}" class="xxs grey monospace">{{ note.index }}</a>

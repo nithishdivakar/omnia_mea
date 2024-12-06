@@ -15,16 +15,16 @@ title: 01j01 Continuous Subarray Sum
 
 **Intuition**
 - For quickly finiding sum of a subarray, we can use prefix sums. 
-    - `sum([i,j]) = prefix(i) - prefix(j)`
+    - `sum(i:j]) = prefix(i) - prefix(j)`
 - mod operator preoperty:  
-    - `sum([i,j])%k = (prefix(i) - prefix(j))%k = (prefix(i)%k - prefix(j)%k)%k`
-- So if `prefix(i)%k == prefix(j)%k` for any `i` and `j` more than 2 indeices apart, the answer is true.
+    - `sum(i:j)%k = (prefix(i) - prefix(j))%k = (prefix(i)%k - prefix(j)%k)%k`
+- So if `prefix(i)%k == prefix(j)%k` for any `i` and `j` more than 2 indices apart, the answer is true.
 - Only corner case is a prefix array sum itself that `sum%k` to 0.
 
 **Solution**
 
 ```python
-def checkSubarraySum(nums: List[int], k: int) -> bool:
+def check_subarray_sum(nums: List[int], k: int) -> bool:
     n = len(nums)
     mod_seen = {0: -1}  # for prefixes that exactly sum%k to 0
     prefix_sum = 0
