@@ -13,7 +13,7 @@ title: 01j01 Continuous Subarray Sum
 > - The sum of the elements of the subarray is a multiple of k.
 
 
-**Intuition**
+### Intuition
 - For quickly finiding sum of a subarray, we can use prefix sums. 
     - `sum(i:j]) = prefix(i) - prefix(j)`
 - mod operator preoperty:  
@@ -41,5 +41,5 @@ def check_subarray_sum(nums: List[int], k: int) -> bool:
     return False
 
 ```
-**Time Complexity**
+### Time Complexity
 - $T(n) = O(n)$ $S(n) = O(n)$

@@ -10,7 +10,7 @@ title: 05b Remove Nth Node From End of List
 ## Remove Nth Node From End of List [LC#19]
 > Given the head of a linked list, remove the nth node from the end of the list and return its head.
 
-**code**
+### Code
 ```python
 def remove_nth_from_end(head: Optional[ListNode], n: int) -> Optional[ListNode]:
     fake_head = ListNode(0, head)

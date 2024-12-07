@@ -23,6 +23,6 @@ def fn(head):
         curr = next_node
     return prev
 ```
-**Time Complexity**
+### Time Complexity
 - $T(n) = O(n)$
 - $S(n) = O(1)$

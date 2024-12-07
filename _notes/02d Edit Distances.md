@@ -13,7 +13,7 @@ title: 02d Edit Distances
 > - Delete a character
 > - Replace a character
 
-**Intuition**
+### Intuition
 Let `cost[i][j]` is the minimum edit distance (or the minimum number of operations) required to transform the first `i` characters of word1 into the first `j` characters of word2.
 
 **Dynamic Programming** 

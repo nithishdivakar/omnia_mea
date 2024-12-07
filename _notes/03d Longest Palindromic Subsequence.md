@@ -12,7 +12,7 @@ title: 03d Longest Palindromic Subsequence
 
  
 
-**Intuition**
+### Intuition
 
 If the characters at the both ends of the string sre the same, they must be part of the longest palindrome. We can add 2 to the length and remove those characters. If they are not equal, then the longest palindrome would be in either of the arrays with one of the end characters removed. 
 
@@ -32,7 +32,7 @@ def longest_palindrommic_subsequence(s: str) -> int:
     return longest(0, len(s) - 1)
 ```
 
-**Time Complexity**
+### Time Complexity
 
 $T(n) = O(n^2)$ $S(n) = O(n^2)$
 
@@ -56,6 +56,6 @@ def longest_palindromic_subsequence(s: str) -> int:
     return curr_dp[n - 1]
 ```
 
-**Time Complexity**
+### Time Complexity
 
 $T(n) = O(n^2)$ $S(n) = O(n)$

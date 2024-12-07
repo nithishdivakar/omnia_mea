@@ -13,13 +13,13 @@ title: 04c Min Meeting Rooms
 > Given an array of meeting time intervals intervals where intervals[i] = [starti, endi], return the minimum number of conference rooms required.
 
 
-**Inuition**
+### Intuition
 
 - Sort all meetings by their start time
 - Keep the ending times of currently occupied meeting rooms in the min heap
 - If current start time is earlier than the min heap end time, we need a new room else we can pop the top and add a new room
 
-**Code**
+### Code
 
 ```python
 def min_meeting_rooms(intervals: List[List[int]]) -> int:
@@ -33,6 +33,6 @@ def min_meeting_rooms(intervals: List[List[int]]) -> int:
         meeting_rooms = max(meeting_rooms, len(heap))
     return meeting_rooms
 ```
-**Time Complexity**
+### Time Complexity
 - $T(n)  = O(n log n + n log n)$ sorting + n pops
 - $S(n) = O(n)$

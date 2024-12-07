@@ -15,11 +15,11 @@ title: 08b03 The Earliest Moment When Everyone Become Friends
 >
 > Return the earliest time for which every person became acquainted with every other person. If there is no such earliest time, return `-1`.
 
-**Intuition**
+### Intuition
 
 Since the friendship is symetric, wheever two people become friends, we can merge their acquaintance sets togethere. When there is only 1 such sets, everyone is aquainted. For finding earliest time, we simply go through the logs in chronological order. 
 
-**Code**
+### Code
 
 ```python
 def earliestAcq(self, logs: List[List[int]], n: int) -> int:
@@ -33,6 +33,6 @@ def earliestAcq(self, logs: List[List[int]], n: int) -> int:
     return -1
 ```
 
-**Time complexity**
+### Time Complexity
 
 $T(n) = O(n)$ since union is $O(\alpha(n))$. $S(n) = O(n)$

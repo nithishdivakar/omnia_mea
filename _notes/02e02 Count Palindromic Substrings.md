@@ -10,11 +10,11 @@ title: 02e02 Count Palindromic Substrings
 ## Count Palindromic Substrings [LC#647]
 > Given a string s, return the number of palindromic substrings in it. A string is a palindrome when it reads the same backward as forward. A substring is a contiguous sequence of characters within the string.
 
-**Intuition**
+### Intuition
 
 Expand around Center
 
-**Code**
+### Code
 ```python
 def count_palindromic_substrings(s: str) -> int:
     def expand_around_center(left: int, right: int) -> int:
@@ -34,6 +34,6 @@ def count_palindromic_substrings(s: str) -> int:
         count += expand_around_center(i, i + 1)
     return count
 ```
-**Time Complexity**
+### Time Complexity
 - $T(n) = O(n^2)$
 - $S(n) = O(1)$

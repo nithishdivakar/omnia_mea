@@ -10,11 +10,11 @@ title: 06a05 Binary Tree from its Traversals
 ## Construct Binary Tree from Preorder and Inorder Traversal [LC#105]
 > Given two integer arrays `preorder` and `inorder` where preorder is the preorder traversal of a binary tree and inorder is the inorder traversal of the same tree, construct and return the binary tree.
 
-**Intuition**
+### Intuition
 
 The elements in preorder represents the roots where the inorder traversal needs to be bifurcated. Maintaining a index map of inorder to quickly map to position of any element will allow quickly building the tree recursively
 
-**Code**
+### Code
 ```python
 def build_tree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
     val_to_idx = {val: idx for idx, val in enumerate(inorder)}
@@ -33,6 +33,6 @@ def build_tree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNo
     return construct(0, len(preorder) - 1)
 ```
 
-**Time Complexity**
+### Time Complexity
 
 $T(n) = O(n)$ $S(n) = O(n)$ for the recursion stack
