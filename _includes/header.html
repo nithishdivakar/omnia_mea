@@ -1,8 +1,15 @@
 <!-- <h2 class="title">{{ site.title }}</h2> -->
 <nav>
-    <a class="navitem" href="{{ site.url }}">{{ site.title }}</a>
-    <a class="navitem" href="{{ site.url }}/list">List</a>
-
+    <!-- <a class="navitem" href="{{ site.url }}">{{ site.title }}</a> -->
+    <div class="nav">
+        <div class="nav-left">
+            <a class="navitem logo" href="{{ site.url }}">omnea mea</a>
+        </div>
+        <div class="nav-right"> 
+            <a class="navitem" href="{{ site.url }}/list">list</a>
+        </div>
+    </div> 
+   
     <!-- {% for link in site.links %}
         <a href="{{ site.url }}{{ link[1] }}">{{ link[0] }}</a>
     {% endfor %}

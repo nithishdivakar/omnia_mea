@@ -13,12 +13,12 @@ title: 05e Merge K Sorted Lists
 
 **Brute-Force**
 - Merge all lists into one and sort the list
-- $T(n) = O(n log n)$ ; $S(n) = O(n)$
+- $T(n) = O(n \log n)$ ; $S(n) = O(n)$
 
 **Priority Queue or Min Heap**
 - Create a min heap with first values of all the lists
 - Repeatedly pop the root of min heap, add to the answer and push the next value of the list where root was from to the heap
-- $T(n) = O(k  + n log k)$ heapify + n pop root
+- $T(n) = O(k  + n \log k)$ heapify + n pop root
 - $S(n) = O(k)$ for the heap
 
 ```python
@@ -48,5 +48,5 @@ def merge_sorted_lists(lists: List[Optional[ListNode]]) -> Optional[ListNode]:
 **Iterative Mergesort on sorted lists**
 - Take 2 pairs of list and sort them together
 - Do this iteratively until there is only 1 left
-- $T(n) = O(n + n/2 + n/4 + ... +n/k) = O(n log k)$
+- $T(n) = O(n + n/2 + n/4 + ... +n/k) = O(n \log k)$
 - $S(n) = O(1)$

@@ -18,7 +18,7 @@ title: 03a Longest Consecutive Sequence
 **Sorting**
 - Sort the array.
 - Check the length of longest conseqtive sequence
-- $T(n) = O(n log n)$; $S(n) = O(n)$
+- $T(n) = O(n \log n)$; $S(n) = O(n)$
 
 **Hash Table based look up**
 - For each num, if num-1 is not in the list, then its possibly a sequence's begning

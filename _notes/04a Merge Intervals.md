@@ -13,7 +13,7 @@ Given an array of intervals where `intervals[i] = [starti, endi]`, merge all ove
 **Sort and Itrate approach**
 - Sort the intervals by start time
 - Iterate over the intervals one by on merging the current with the previous if there is an overlap
-- $T(n) = O(n log n + n)$; $S(n) = O(n)$
+- $T(n) = O(n \log n + n)$; $S(n) = O(n)$
 ```python
 def merge_intervals(intervals: List[List[int]]) -> List[List[int]]:
     intervals = sorted(intervals)

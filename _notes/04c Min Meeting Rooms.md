@@ -34,5 +34,5 @@ def min_meeting_rooms(intervals: List[List[int]]) -> int:
     return meeting_rooms
 ```
 ### Time Complexity
-- $T(n)  = O(n log n + n log n)$ sorting + n pops
+- $T(n)  = O(n \log n + n \log n)$ sorting + n pops
 - $S(n) = O(n)$

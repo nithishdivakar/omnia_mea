@@ -35,8 +35,8 @@ def kruskal_mst(num_edges: int, edges: List[Edge]) -> Tuple[List[Edge], float]:
     return mst, total_weight
 ```
 
-- Time Complexity: $O(m log m + n + m) = O(m log n)$ 
-    - $O(m log m)$ for sorting all edges
+- Time Complexity: $O(m \log m + n + m) = O(m \log n)$ 
+    - $O(m \log m)$ for sorting all edges
     - $O(n)$ for make set  on each edges
     - $O(m)$ for find and union on all nodes in edges
 - Space Complexity: Extra space to maintaint the DSU datastructure ~ $O(n)$ 

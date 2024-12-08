@@ -52,5 +52,5 @@ def prims_mst(num_vertices: int, edges: List[Edge]) -> Tuple[List[Edge], float]:
 Time Complexity
 - While loop is executed n times as the MST only has n-1 edges. This give no of times heappop is called. 
 - The heap push is called max m times.
-- $T(n) = O(nlogn + m log n) = O((m+n) log n)$
+- $T(n) = O(n \log n + m \log n) = O((m+n) \log n)$
 - $S(n) = O(n)$ for the heap
