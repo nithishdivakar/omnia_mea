@@ -32,4 +32,4 @@ def count_subarray_sum_to_targets(nums: List[int], k: int) -> int:
     return counts
 ```
 ## Time Complexity
-- $T(n) = O(n)$ $S(n) = O(n)$
+- $T(n) = O(n)$ and $S(n) = O(n)$

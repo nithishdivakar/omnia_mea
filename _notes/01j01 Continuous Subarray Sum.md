@@ -42,4 +42,4 @@ def check_subarray_sum(nums: List[int], k: int) -> bool:
 
 ```
 ### Time Complexity
-- $T(n) = O(n)$ $S(n) = O(n)$
+- $T(n) = O(n)$ and $S(n) = O(n)$
