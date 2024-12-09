@@ -5,6 +5,7 @@ index: 04d02
 layout: post
 status: done
 title: 04d01 Zero Array Transformation 2
+tags: [line sweep, binary search]
 ---
 
 

@@ -5,6 +5,7 @@ index: 04d
 layout: post
 status: done
 title: 04d Line Sweep Technique
+tags: [line sweep]
 ---
 
 ## Line Sweep
