@@ -21,7 +21,7 @@ title: 01j02 Subarray Sum Equals K
 ```python
 def count_subarray_sum_to_targets(nums: List[int], k: int) -> int:
     prefixes = defaultdict(int)
-    prefixes[0] = 1 # empty array is a siubarray of sum 0
+    prefixes[0] = 1 # empty array is a subarray of sum 0
 
     current = 0
     counts = 0

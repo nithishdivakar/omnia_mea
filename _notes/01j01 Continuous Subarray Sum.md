@@ -14,10 +14,10 @@ title: 01j01 Continuous Subarray Sum
 
 
 ### Intuition
-- For quickly finiding sum of a subarray, we can use prefix sums. 
-    - `sum(i:j]) = prefix(i) - prefix(j)`
+- For quickly finding sum of a subarray, we can use prefix sums.
+    - `sum(i:j) = prefix(i) - prefix(j)`
 - mod operator preoperty:  
-    - `sum(i:j)%k = (prefix(i) - prefix(j))%k = (prefix(i)%k - prefix(j)%k)%k`
+    - `(a-b)%k =  (a%k - b%k)%k = a%k - b%k`
 - So if `prefix(i)%k == prefix(j)%k` for any `i` and `j` more than 2 indices apart, the answer is true.
 - Only corner case is a prefix array sum itself that `sum%k` to 0.
 

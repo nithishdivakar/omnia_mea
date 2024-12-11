@@ -30,7 +30,7 @@ for idx range(len(arr)):
     while stack and arr[stack[-1]] <= arr[i]:
         mid = stack.pop()
         left = -1 if not stack else stack[-1]
-        right = i
+        right = idx
         # do something with arr[left] > a[mid] < a[right]
     stack.append(idx)
 ```

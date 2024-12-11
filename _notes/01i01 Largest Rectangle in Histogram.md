@@ -11,7 +11,7 @@ title: 01i01 Largest Rectangle in Histogram
 ## Largest Rectangle in Histogram [ LC# 84]
 Given an array of integers heights representing the histogram's bar height where the width of each bar is 1, return the area of the largest rectangle in the histogram.
 
-**Brute Force**
+### Brute Force
 - Enumerate every range. Compute the Area
 - $T(n) = O(n^2)$; $S(n) = O(n^2)$
 
@@ -21,16 +21,27 @@ min_heights[i:j] = min(min_heights[i-1:j-1], heights[i], heights[j])
 min_heights[i:i] = heights[i]
 ```
 
-**Monotonic Stack**
-- Consider all the rectangles where height[i] is its right side. 
-- Maintain a stack such that heights in the stack are always in increasing order.
-- When we see a column that is higher than what is on the stack, use it as the right side and compute all the possible rectangles using what is on the stack to derive left side and height.
-- Remove each considered rectangle / column from the stack
-- $T(n) = O(n)$; $S(n) = O(n)$
+### Intuition: Monotonic Stack
+- If we are at a rectangle of height $h$ and we are interested in finding the largest rectangle with minimum height $h$ in the histogram. We can extend the rectangle to both the sides till we encounter a height that is smaller.
+- If we trasverse the histogram from left to right and maintain a non-decreasing monotonic stack, it will have all these states that we need.
 
+```              
+           ┌─┐         ┌─┐    
+       ┌─┐ │ │       ┌─┤ │    
+   ┌─┐ │ ├─┤ │     ┌─┤ │ │    
+   │ ├─┤ │ │ │   ┌─┤ │ │ │    
+   │ │ │ │ │ │...│h│ │ │ ├─┐   
+ ┌─┤ │ │ │ │ │   │ │ │ │ │ │   
+ └─┴─┴─┴─┴─┴─┘   └─┴─┴─┴─┴─┘   
+   └─────────────────────┘                
+┌─┴──┐          ┌─┴─┐  ┌──┴──┐
+ left            mid    right
+```          
+
+### Code
 ```python
 def largest_rectangle_in_historgam(heights: List[int]) -> int:
-    stack = [-1] # monotonic stack which maintains no decreasing heights till i
+    stack = [-1] # monotonic stack : non decreasing order
     max_area = 0
     
     heights.append(0)
@@ -43,3 +54,7 @@ def largest_rectangle_in_historgam(heights: List[int]) -> int:
         stack.append(i)
     return max_area
 ```
+
+
+### Time complexity
+- $T(n) = O(n)$; $S(n) = O(n)$

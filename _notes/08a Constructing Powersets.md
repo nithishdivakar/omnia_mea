@@ -20,7 +20,7 @@ def subsets_of_multiset(nums: List[int]) -> List[List[int]]:
     powerset = [[],]
     freq = {}
     for num in nums:
-        freq[num] = freq.get(num, 0)+1
+        freq[num] = freq.get(num, 0) + 1
 
     for num, num_freq in freq.items():
         curr = []

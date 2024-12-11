@@ -11,9 +11,8 @@ title: 01a Two Sum
 > Given an array of integers `nums` and an `integer` target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
 
 
-**Sorting and two pointers**
-
-- $T(n) = O(n \log n)$; $S(n) = O(n)$
+### Sorting and two pointers
+- $T(n) = O(n \log n)$; $S(n) = O(n)$ for maintaining the index.
 
 ```python
 def two_sum(nums: List[int], target:Int) -> Tuple[int, int]:
@@ -33,8 +32,7 @@ def two_sum(nums: List[int], target:Int) -> Tuple[int, int]:
     return (-1, -1)
 ```
 
-**Hashset**
-
+### Hashset
 - $T(n) = O(n)$; $S(n) = O(n)$
 
 ```python

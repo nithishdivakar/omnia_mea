@@ -11,8 +11,7 @@ title: 06a05 Binary Tree from its Traversals
 > Given two integer arrays `preorder` and `inorder` where preorder is the preorder traversal of a binary tree and inorder is the inorder traversal of the same tree, construct and return the binary tree.
 
 ### Intuition
-
-The elements in preorder represents the roots where the inorder traversal needs to be bifurcated. Maintaining a index map of inorder to quickly map to position of any element will allow quickly building the tree recursively
+The elements in preorder represents the roots where the inorder traversal needs to be bifurcated. Maintaining a index map of inorder to quickly map to position of any element will allow quickly building the tree recursively.
 
 ### Code
 ```python
