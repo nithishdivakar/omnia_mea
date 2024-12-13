@@ -1,5 +1,4 @@
 ---
-categories: null
 date: 2024-01-01 00:00:00 +0000
 index: 03b
 layout: post
@@ -10,9 +9,8 @@ title: 03b Longest Increasing Subsequence
 ## Longest Increasing Subsequence [LC#300]
 > Given an integer array nums, return the length of the longest strictly increasing subsequence.
 
- 
 
-**Dynamic programming approach**
+### Dynamic programming approach
 - Find the length of longest increasing subsequence ending at i. 
     ```python
     def length_of_lis(nums: List[int]) -> int:
@@ -26,14 +24,14 @@ title: 03b Longest Increasing Subsequence
     ```
 - $T(n) + O(n^2)$; $S(n) = O(n)$
 
-**Technique based on [patience sorting](https://www.cs.princeton.edu/courses/archive/spring13/cos423/lectures/LongestIncreasingSubsequence.pdf)**
+### Technique based on [patience sorting](https://www.cs.princeton.edu/courses/archive/spring13/cos423/lectures/LongestIncreasingSubsequence.pdf)
 - If the number is larger than the largest element in the temporary array, append it. Otherwise, replace the found position with the current number.
 - The length of the temporary array will give the length of the longest increasing subsequence.
-- the tem array may not always have a valid subsequence, but its length will always be equal to longest subsequence.
+- The temp array may not always have a valid subsequence, but its length will always be equal to longest subsequence.
     ```python
     from bisect import bisect_left
     
-    def length_of_LIS(nums: List[int]) -> int:
+    def length_of_lis(nums: List[int]) -> int:
         if not nums: return 0
         tails = []
         for num in nums:
@@ -44,4 +42,4 @@ title: 03b Longest Increasing Subsequence
                 tails[pos] = num
         return len(tails)
     ```
-- $T(n) = O(n log(n))$; $S(n) = O(n)$
+- $T(n) = O(n \log n)$; $S(n) = O(n)$

@@ -5,12 +5,16 @@ layout: compress
 {% include head.html %}
 
 <main>
-    {% include header.html %}
+    {% include header.html %}    
+    
+    <div class="note" id="{{ page.index }}" style="margin:auto;width:600px">
+        <div style="text-align: right;height:5px">
+            <a name="{{ page.index }}"  href="{{ page.url }}" class="xxs grey monospace">{{ page.index }}</a>
+        </div>
+        {{ page.content }}
+    </div>
 
-    <!-- <h1>{{ page.title }}</h1>
-    <i>{{ page.date | date: "%b %d, %Y" }}</i>
-    <h4 class="subtitle">{{ page.subtitle }}</h4> -->
-    {{ page.content }}
+
 </main>
 
 {% include footer-post.html %}

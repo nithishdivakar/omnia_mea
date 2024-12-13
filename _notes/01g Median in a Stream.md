@@ -1,5 +1,4 @@
 ---
-categories: null
 date: 2024-01-01 00:00:00 +0000
 index: 01g
 layout: post
@@ -11,7 +10,13 @@ title: 01g Median in a Stream
 > - For example, for arr = [2,3,4], the median is 3.
 > - For example, for arr = [2,3], the median is (2 + 3) / 2 = 2.5.
 
+### Intuition
+- We can easily find median if we have access to the 2 middle elements. 
+- The middle elements are largest of the first half and smallest of the second half if the array was sorted
+- We can maintain first half of elements in a max heap and second half in min heap
+- Always maintain insertion so that max heap has at most 1 value more than the min heap
 
+### Code
 ```python
 class MedianFinder:
     def __init__(self):
@@ -27,6 +32,10 @@ class MedianFinder:
 
     def find_median(self) -> float:
         if len(self.low) > len(self.high):
-            return - self.low[0]
+            return -self.low[0]
         return (-self.low[0] + self.high[0])/2
 ```
+
+### Time complexity
+- $T(n) = O(\log n) $ for each insertion and median can be computed in $O(1)$ always
+- $S(n) = O(n)$ for the heaps

@@ -1,10 +1,9 @@
 ---
-categories: null
 date: 2024-01-01 00:00:00 +0000
-index: 01j02
+index: 01j04
 layout: post
 status: done
-title: 01j02 Subarray Sum Equals K
+title: 01j04 Subarray Sum Equals K
 ---
 
 ## Subarray Sum Equals K [LC#560]

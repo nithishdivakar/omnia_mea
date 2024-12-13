@@ -32,13 +32,16 @@ layout: default
     {% for note in site.notes %}
         <div class="note" id="{{ note.index }}">
             <div style="text-align: right;height:5px">
-                <a name="{{ note.index }}"  href="#{{ note.index }}" class="xxs grey monospace">{{ note.index }}</a>
+                <a name="{{ note.index }}"  href="{{ note.url }}" class="xxs grey monospace">{{ note.index }}</a>
             </div>
             
             {{ note.content }}
             {% if note.status=='todo' %}
                 (todo)
             {% endif %}
+            {% for tag in note.tags %}
+                <span class="tag"> {{ tag }}</span>
+            {% endfor %}
         </div>  
     {% endfor %}
     </div>

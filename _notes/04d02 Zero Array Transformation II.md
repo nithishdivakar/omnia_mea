@@ -1,10 +1,9 @@
 ---
-categories: null
 date: 2024-01-01 00:00:00 +0000
 index: 04d02
 layout: post
 status: done
-title: 04d01 Zero Array Transformation 2
+title: 04d02 Zero Array Transformation 2
 tags: [line sweep, binary search]
 ---
 

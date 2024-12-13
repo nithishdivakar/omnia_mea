@@ -57,6 +57,7 @@ permalink: /:title/
 collections:
   notes:
     output: true
+    permalink: /:collection/:name
 
 # Add general links to site pages here
 links:

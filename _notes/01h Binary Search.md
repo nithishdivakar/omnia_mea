@@ -1,53 +1,28 @@
 ---
-categories: null
 date: 2024-01-01 00:00:00 +0000
 index: 01h
 layout: post
-status: doing
+status: done
 title: 01h Binary Search
 ---
 
-## Binary Search
-I.
+# Binary Search
+> Minimize k , s.t. condition(k) is True
 
-Binary search pattern when we are searching for a target in an ordered array with element w.r.to target like       
-```                                   
-  [      <      ][ = ][      >      ]                            
 ```
-
-```python
-L, R = 0, N-1
-
-while L <= R:
-    mid = L + (R-L)//2
-    if a[mid] == target:
-        return mid
-    if a[mid] > target:
-        R = mid - 1
-    else:
-        L = mid + 1
-return -1
-```
-
-II.
-
-Binary search pattern when we are searching for the first/smallest valid position when the array is like   
-```                                
-
   [ f ][ f ][ f ][ t ][ t ][ t ][ t ][ t ]     
                    └── ans 
 ```
+- Set up the boundary to include all possible elements
 
 ```python
-L, R = 0, N-1
-ans = -1
-
-while L <= R:
-    mid = L + (R-L)//2
-    if is_valid(mid):
-        ans = mid
-        R = mid - 1
-    else:
-        L = mid + 1
-return ans
+def binary_search(search_space) -> int:
+    left, right = min(search_space), max(search_space)
+    while left < right:
+        mid = left + (right - left) // 2
+        if condition(mid):
+            right = mid
+        else:
+            left = mid + 1
+    return left
 ```

@@ -1,10 +1,9 @@
 ---
-categories: null
 date: 2024-01-01 00:00:00 +0000
-index: 02a
+index: 02f01
 layout: post
 status: done
-title: 02a Longest Substring Without Repeating Characters
+title: 02f01 Longest Substring Without Repeating Characters
 ---
 
 ## Longest Substring Without Repeating Characters [LC#3]

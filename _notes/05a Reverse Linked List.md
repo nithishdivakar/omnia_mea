@@ -1,5 +1,4 @@
 ---
-categories: null
 date: 2024-01-01 00:00:00 +0000
 index: 05a
 layout: post
@@ -10,7 +9,25 @@ title: 05a Reverse Linked List
 ## Reverse Linked List [LC#206]
 > Given the head of a singly linked list, reverse the list, and return the reversed list.
 
-**Iterative approach**
+### Iterative approach
+
+
+                                             
+```
+     ┌────┐    ┌────┐    ┌────┐
+ <-- │prev│    │curr│--> │next│-->
+     └────┘    └────┘    └────┘
+     ┌────┐    ┌────┐    ┌────┐
+ <-- │prev│ <--│curr│    │next│-->
+     └────┘    └────┘    └────┘
+     ┌────┐    ┌────┐    ┌────┐
+ <-- │    │ <--│prev│    │next│-->
+     └────┘    └────┘    └────┘
+     ┌────┐    ┌────┐    ┌────┐
+ <-- │    │ <--│prev│    |curr│-->
+     └────┘    └────┘    └────┘
+```
+
 
 ```python
 def fn(head):
