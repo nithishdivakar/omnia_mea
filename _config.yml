@@ -58,6 +58,9 @@ collections:
   notes:
     output: true
     permalink: /:collection/:name
+  ml_notes:
+    output: true
+    permalink: /:collection/:name
 
 # Add general links to site pages here
 links:

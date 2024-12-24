@@ -44,11 +44,37 @@ layout: default
             {% endfor %}
         </div>  
     {% endfor %}
+
+    <h1>Machine Learning Notes</h1>
+
+    {% for note in site.ml_notes %}
+        <div class="note" id="{{ note.index }}">
+            <div style="text-align: right;height:5px">
+                <a name="{{ note.index }}"  href="{{ note.url }}" class="xxs grey monospace">{{ note.index }}</a>
+            </div>
+            
+            {{ note.content }}
+            {% if note.status=='todo' %}
+                (todo)
+            {% endif %}
+            {% for tag in note.tags %}
+                <span class="tag"> {{ tag }}</span>
+            {% endfor %}
+        </div>  
+    {% endfor %}
     </div>
     <div class="toc">
         <h3> Table of Contents </h3>
         <ul style="font-size: smaller;">
         {% for note in site.notes %}
+            <li>
+                <a href="#{{ note.index }}" class="{{ note.status }}">{{ note.title }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+
+        <ul style="font-size: smaller;">
+        {% for note in site.ml_notes %}
             <li>
                 <a href="#{{ note.index }}" class="{{ note.status }}">{{ note.title }}</a>
             </li>
