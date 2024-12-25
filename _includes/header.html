@@ -5,7 +5,7 @@
         <div class="nav-left">
             <a class="navitem logo" href="{{ site.url }}">[omnea mea]</a>
             {% for collection in site.collections %}
-                <a class="navitem" href="{{collection.root_url}}">[{{ collection.name }}]</a>
+                <a class="navitem" href="{{collection.root_url}}">{{ collection.name }}</a>
             {% endfor %}
         </div>
         <div class="nav-right"> 
