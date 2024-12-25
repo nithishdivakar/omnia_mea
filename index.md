@@ -1,84 +1,33 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 ---
 
-
-{% assign todo_count = 0 %}
-{% assign doing_count = 0 %}
-{% assign done_count = 0 %}
-{% assign other_count = 0 %}
-
-{% for note in site.notes %}
-    {% case note.status %}
-        {% when 'todo' %}
-            {% assign todo_count = todo_count | plus: 1 %}
-        {% when 'doing' %}
-            {% assign doing_count = doing_count | plus: 1 %}
-        {% when 'done' %}
-            {% assign done_count = done_count | plus: 1 %}
-        {% else %}
-            {% assign other_count = other_count | plus: 1 %}
-    {% endcase %}
-{% endfor %}
+{% assign alldocs = site.documents | where_exp: 'doc', 'doc.tags.size > 0' %}
+{% assign grouptag = alldocs | map: 'tags' | flatten | uniq | sort %}
 
 <div class="container">
-    <div class="notes">
-        <div class="note">
-            [ todo: {{ todo_count }} | doing: {{ doing_count }} | done: {{ done_count }} | other: {{ other_count }} ]
-        </div>
-    {% for note in site.notes %}
-        <div class="note" id="{{ note.index }}">
-            <div style="text-align: right;height:5px">
-                <a name="{{ note.index }}"  href="{{ note.url }}" class="xxs grey monospace">{{ note.index }}</a>
-            </div>
-            
-            {{ note.content }}
-            {% if note.status=='todo' %}
-                (todo)
-            {% endif %}
-            {% for tag in note.tags %}
-                <span class="tag"> {{ tag }}</span>
-            {% endfor %}
-        </div>  
-    {% endfor %}
-
-    <h1>Machine Learning Notes</h1>
-
-    {% for note in site.ml_notes %}
-        <div class="note" id="{{ note.index }}">
-            <div style="text-align: right;height:5px">
-                <a name="{{ note.index }}"  href="{{ note.url }}" class="xxs grey monospace">{{ note.index }}</a>
-            </div>
-            
-            {{ note.content }}
-            {% if note.status=='todo' %}
-                (todo)
-            {% endif %}
-            {% for tag in note.tags %}
-                <span class="tag"> {{ tag }}</span>
-            {% endfor %}
-        </div>  
-    {% endfor %}
-    </div>
     <div class="toc">
-        <h3> Table of Contents </h3>
-        <ul style="font-size: smaller;">
-        {% for note in site.notes %}
-            <li>
-                <a href="#{{ note.index }}" class="{{ note.status }}">{{ note.title }}</a>
-            </li>
-        {% endfor %}
+        <h1>Collections</h1>
+        <ul>
+            {% for collection in site.collections %}
+                <li>
+                    <a href="{{ collection.root_url }}">{{ collection.long_name }}</a>
+                </li>
+            {% endfor %}
         </ul>
-
-        <ul style="font-size: smaller;">
-        {% for note in site.ml_notes %}
-            <li>
-                <a href="#{{ note.index }}" class="{{ note.status }}">{{ note.title }}</a>
-            </li>
-        {% endfor %}
-        </ul>
+    </div>
+    <div class="notes">
+        <h1>Tags</h1>
+        {%- for tag in grouptag -%}
+            <h2>{{- tag -}}</h2> 
+            <!-- {{- alldocs | where: 'tags', tag | size -}}</h2> -->
+            <ul>
+            {%- for document in alldocs -%}
+                {% if document.tags and document.tags contains tag %}
+                    <li><a href="{{document.url}}">{{- document.title -}}</a></li> 
+                {% endif %}
+            {%- endfor -%}
+            </ul>
+        {%- endfor -%}
     </div>
 </div>

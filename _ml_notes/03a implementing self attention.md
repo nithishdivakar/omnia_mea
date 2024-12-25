@@ -4,6 +4,7 @@ index: 03a
 layout: post
 status: doing
 title: 03a Implementing Self Attention
+tags: [self attention, transformers]
 ---
 
 ## Implementing Self Attention

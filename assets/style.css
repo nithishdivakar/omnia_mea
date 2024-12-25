@@ -93,13 +93,11 @@ blockquote {
     overflow:auto;margin: 0px;
 }
 
-nav{
-    margin:auto;
-    width: 900px;
+nav {
     height:3vh;
     line-height:3vh;
+    background-color: black;
 }
-
 
 a.todo { color:#e91e63; }
 a.doing { color:green; }
@@ -110,6 +108,9 @@ a.done { color:blue; }
     grid-template-areas: 
     "left middle right";
     grid-template-columns: 300px auto 300px;
+    margin:auto;
+    width: 900px;
+    font-family: monospace;
 }
 
 .nav-left {
@@ -163,9 +164,10 @@ a.navitem{
     font-size: unset;
     color: #e91e1e;
     text-decoration: none;
+    text-transform: uppercase;
 }
 a.navitem.logo{
-    font-size: x-large;
+    /* font-size: x-large; */
 }
 
 .xxs{font-size: 8px;} 

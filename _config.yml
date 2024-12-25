@@ -55,16 +55,22 @@ plugins:
 permalink: /:title/
 
 collections:
-  notes:
+  cp_notes:
     output: true
-    permalink: /:collection/:name
+    permalink: /cp/:collection/:name
+    name: cp
+    root_url: /cp
+    long_name: Competitive Programming
   ml_notes:
     output: true
-    permalink: /:collection/:name
-
+    permalink: /ml/:collection/:name
+    name: ml
+    long_name: Machine Learning
+    root_url: /ml
 # Add general links to site pages here
 links:
-  RRR: dd
+  ml: /ml
+  cp: /cp
 
 # Add links for more focus here
 special_links:

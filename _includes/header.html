@@ -3,16 +3,18 @@
     <!-- <a class="navitem" href="{{ site.url }}">{{ site.title }}</a> -->
     <div class="nav">
         <div class="nav-left">
-            <a class="navitem logo" href="{{ site.url }}">omnea mea</a>
+            <a class="navitem logo" href="{{ site.url }}">[omnea mea]</a>
+            {% for collection in site.collections %}
+                <a class="navitem" href="{{collection.root_url}}">[{{ collection.name }}]</a>
+            {% endfor %}
         </div>
         <div class="nav-right"> 
             <a class="navitem" href="{{ site.url }}/list">list</a>
         </div>
+
     </div> 
    
-    <!-- {% for link in site.links %}
-        <a href="{{ site.url }}{{ link[1] }}">{{ link[0] }}</a>
-    {% endfor %}
+    <!-- 
     
     {% for link in site.special_links %}
             <a href="{{ link[1] }}">[{{ link[0] }}]</a>
