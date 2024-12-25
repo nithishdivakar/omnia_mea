@@ -4,6 +4,7 @@ index: 02e04
 layout: post
 status: todo
 title: 02e04 Palindromic Partition
+tags: [palindromes]
 ---
 
 ## Palindromic Partition

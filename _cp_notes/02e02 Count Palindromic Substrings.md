@@ -4,6 +4,7 @@ index: 02e02
 layout: post
 status: done
 title: 02e02 Count Palindromic Substrings
+tags: [palindromes]
 ---
 
 ## Count Palindromic Substrings [LC#647]

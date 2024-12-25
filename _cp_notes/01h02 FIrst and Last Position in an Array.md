@@ -4,6 +4,7 @@ index: 01h02
 layout: post
 status: done
 title: 01h02 First and Last Position in a Sorted Array
+tags: [binary search]
 ---
 
 ## Find First and Last Position of Element in Sorted Array [LC#34]

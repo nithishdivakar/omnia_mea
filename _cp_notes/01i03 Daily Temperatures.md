@@ -5,6 +5,7 @@ index: '01i03'
 layout: post
 status: done
 title: 01i03 Daily Temperatures
+tags: [monotonic stack]
 ---
 
 ## Daily Temperatures [LC#739]

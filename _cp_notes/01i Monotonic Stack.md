@@ -5,6 +5,7 @@ index: '01i'
 layout: post
 status: done
 title: 01i Monotonic Stack
+tags: [monotonic stack]
 ---
 
 

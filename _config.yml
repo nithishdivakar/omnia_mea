@@ -57,13 +57,13 @@ permalink: /:title/
 collections:
   cp_notes:
     output: true
-    permalink: /cp/:collection/:name
+    permalink: /cp/:name
     name: cp
     root_url: /cp
     long_name: Competitive Programming
   ml_notes:
     output: true
-    permalink: /ml/:collection/:name
+    permalink: /ml/:name
     name: ml
     long_name: Machine Learning
     root_url: /ml

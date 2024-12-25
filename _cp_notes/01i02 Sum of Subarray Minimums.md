@@ -5,6 +5,7 @@ index: '01i02'
 layout: post
 status: done
 title: 01i02 Sum of Subarray Minimums
+tags: [monotonic stack]
 ---
 
 ## Sum of Subarray Minimums [LC#907]

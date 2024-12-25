@@ -4,6 +4,7 @@ index: 01h01
 layout: post
 status: done
 title: 01h01 Binary Search in Sroted Array
+tags: [binary search]
 ---
 
 ## Binary search in a sorted array     

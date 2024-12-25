@@ -4,6 +4,7 @@ index: 01h04
 layout: post
 status: done
 title: 01h04 Minimum Limit of Balls in a Bag
+tags: [binary search]
 ---
 
 ## Minimum Limit of Balls in a Bag [LC#1760]

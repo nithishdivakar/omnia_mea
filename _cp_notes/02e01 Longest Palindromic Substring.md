@@ -4,6 +4,7 @@ index: 02e01
 layout: post
 status: done
 title: 02e01 Longest Palindromic Substring
+tags: [palindromes]
 ---
 
 ## Longest Palindromic Substring [LC#5]

@@ -4,6 +4,7 @@ index: 04a
 layout: post
 status: done
 title: 04a Merge Intervals
+tags: [intervals]
 ---
 
 ## Merge Intervals [LC#56]

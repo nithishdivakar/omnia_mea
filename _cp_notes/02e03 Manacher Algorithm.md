@@ -4,6 +4,7 @@ index: 02e03
 layout: post
 status: doing
 title: 02e03 Manacher Algorithm
+tags: [palindromes]
 ---
 
 ## Manacher Algorithm

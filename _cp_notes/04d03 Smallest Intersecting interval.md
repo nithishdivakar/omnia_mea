@@ -4,7 +4,7 @@ index: 04d03
 layout: post
 status: doing
 title: 04d03 Smallest Range Covering Elements from K Lists
-tags: [line sweep]
+tags: [line sweep, intervals]
 ---
 
 ## Smallest Range Covering Elements from K Lists [LC#632]

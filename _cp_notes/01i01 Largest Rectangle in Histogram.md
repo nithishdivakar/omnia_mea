@@ -5,6 +5,7 @@ index: '01i01'
 layout: post
 status: done
 title: 01i01 Largest Rectangle in Histogram
+tags: [monotonic stack]
 ---
 
 

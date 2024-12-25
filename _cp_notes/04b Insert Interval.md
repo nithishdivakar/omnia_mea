@@ -4,6 +4,7 @@ index: 04b
 layout: post
 status: done
 title: 04b Insert Interval
+tags: [intervals]
 ---
 
 ## Insert Interval [LC#57]

@@ -24,7 +24,7 @@ layout: default
             <ul>
             {%- for document in alldocs -%}
                 {% if document.tags and document.tags contains tag %}
-                    <li><a href="{{document.url}}">{{- document.title -}}</a></li> 
+                    <li><a href="{{site.url}}{{document.url}}">{{- document.title -}}</a></li> 
                 {% endif %}
             {%- endfor -%}
             </ul>

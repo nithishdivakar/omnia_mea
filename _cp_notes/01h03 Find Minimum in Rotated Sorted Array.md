@@ -4,6 +4,7 @@ index: 01h03
 layout: post
 status: done
 title: 01h03 Find Minimum in Rotated Sorted Array
+tags: [binary search]
 ---
 
 ## Find Minimum in Rotated Sorted Array [LC#153]
