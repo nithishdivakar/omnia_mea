@@ -8,7 +8,7 @@ layout: default
 {% assign done_count = 0 %}
 {% assign other_count = 0 %}
 
-{% for note in site.cp_notes %}
+{% for note in site.lc_notes %}
     {% case note.status %}
         {% when 'todo' %}
             {% assign todo_count = todo_count | plus: 1 %}
@@ -25,10 +25,14 @@ layout: default
     <div class="notes">
         <h1>Competitive Programming Notes</h1>
         <div class="note">
-            [ todo: {{ todo_count }} | doing: {{ doing_count }} | done: {{ done_count }} | other: {{ other_count }} ]
+            [ <span class="todo">   todo: </span> {{ todo_count }}
+            | <span class="doing"> doing: </span> {{ doing_count }} 
+            | <span class="done">   done: </span> {{ done_count }} 
+            | <span class="other"> other: </span> {{ other_count }} 
+            ]
         </div>
         
-        {% for note in site.cp_notes %}
+        {% for note in site.lc_notes %}
             <div class="note" id="{{ note.index }}">
                 <div style="text-align: right;height:5px">
                     <a name="{{ note.index }}"  href="{{ note.url }}" class="xxs grey monospace">{{ note.index }}</a>
@@ -48,7 +52,7 @@ layout: default
     <div class="toc">
         <h3> Table of Contents </h3>
         <ul style="font-size: smaller;">
-        {% for note in site.cp_notes %}
+        {% for note in site.lc_notes %}
             <li>
                 <a href="#{{ note.index }}" class="{{ note.status }}">{{ note.title }}</a>
             </li>

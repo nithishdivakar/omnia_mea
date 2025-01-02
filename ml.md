@@ -25,7 +25,11 @@ layout: default
     <div class="notes">
     <h1>Machine Learning Notes</h1>
         <div class="note">
-            [ todo: {{ todo_count }} | doing: {{ doing_count }} | done: {{ done_count }} | other: {{ other_count }} ]
+            [ <span class="todo">   todo: </span> {{ todo_count }}
+            | <span class="doing"> doing: </span> {{ doing_count }} 
+            | <span class="done">   done: </span> {{ done_count }} 
+            | <span class="other"> other: </span> {{ other_count }} 
+            ]
         </div>
 
     {% for note in site.ml_notes %}

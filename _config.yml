@@ -55,11 +55,11 @@ plugins:
 permalink: /:title/
 
 collections:
-  cp_notes:
+  lc_notes:
     output: true
-    permalink: /cp/:name
-    name: cp
-    root_url: /cp
+    permalink: /lc/:name
+    name: lc
+    root_url: /lc
     long_name: Competitive Programming
   ml_notes:
     output: true
@@ -70,7 +70,7 @@ collections:
 # Add general links to site pages here
 links:
   ml: /ml
-  cp: /cp
+  lc: /lc
 
 # Add links for more focus here
 special_links:

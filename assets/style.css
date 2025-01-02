@@ -4,7 +4,7 @@
 .highlight .k { color: #cf222e; /*font-weight: bold*/ } /* Keyword */
 .highlight .o { color: #000000; font-weight: normal } /* Operator */
 .highlight .cm { color: #999988; font-style: italic } /* Comment.Multiline */
-.highlight .cp { color: #999999; font-weight: bold; font-style: italic } /* Comment.Preproc */
+.highlight .lc { color: #999999; font-weight: bold; font-style: italic } /* Comment.Preproc */
 .highlight .c1 { color: #59636e; /*font-style: italic*/ } /* Comment.Single */
 .highlight .cs { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
 .highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
@@ -99,9 +99,9 @@ nav {
     background-color: black;
 }
 
-a.todo { color:#e91e63; }
-a.doing { color:green; }
-a.done { color:blue; }
+.todo { color:#e91e63; }
+.doing { color:green; }
+.done { color:blue; }
 
 .nav{
     display: grid;
