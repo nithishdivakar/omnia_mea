@@ -6,7 +6,7 @@ status: done
 title: 07c02 DFS like Topological Sort
 ---
 
-## DFS like topological sort
+### DFS like topological sort
 ```python
 def topological_sort_dfs(graph: Dict[str, List[str]]) -> List[str]:
     WHITE, GRAY, BLACK = 0, 1, 2

@@ -32,3 +32,29 @@ def lowest_common_ancestor(root: "Node", p: "Node", q: "Node") -> "Node":
 
 ### Time complexity
 $T(n) = O(n)$ and $S(n)= O(n)$ for the recursion stack in worst case.
+
+
+If nodes are not guranteed to be in the tree
+```python
+def lowest_common_ancestor(root: "Node", p: "Node", q: "Node") -> "Node":
+    found = 0
+    def traverse(node):
+        nonlocal found
+        if node is None: return node
+
+        left = traverse(node.left)
+        right = traverse(node.right)
+
+        if node in [p, q]:
+            found += 1
+            return node
+
+        if right and left:
+            return node
+        return left if left else right
+
+    node = traverse(root)
+    if found >= 2:
+        return node
+    return None
+```

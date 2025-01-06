@@ -6,7 +6,7 @@ status: done
 title: 07c01 BFS like Topological Sort (Kahn Algorithm)
 ---
 
-## Kahn's Algorithm (BFS-like)
+### Kahn's Algorithm (BFS-like)
 
 ```python
 def topological_sort_kahn(graph: Dict[str, List[str]]) -> List[str]:
