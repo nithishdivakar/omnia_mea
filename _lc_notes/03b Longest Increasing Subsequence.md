@@ -4,6 +4,7 @@ index: 03b
 layout: post
 status: done
 title: 03b Longest Increasing Subsequence
+level: h2
 ---
 
 ## Longest Increasing Subsequence [LC#300]

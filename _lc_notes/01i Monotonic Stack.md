@@ -6,6 +6,7 @@ layout: post
 status: done
 title: 01i Monotonic Stack
 tags: [monotonic stack]
+level: h2
 ---
 
 
@@ -28,7 +29,7 @@ Although a monotonic stack can be used to solve problems that require finding pr
 stack = []
 arr.append(-math.inf) # to ensure all elements are processed
 for idx range(len(arr)):
-    while stack and arr[stack[-1]] <= arr[i]:
+    while stack and arr[stack[-1]] <= arr[idx]:
         mid = stack.pop()
         left = -1 if not stack else stack[-1]
         right = idx

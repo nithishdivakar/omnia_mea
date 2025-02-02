@@ -4,6 +4,7 @@ index: '02'
 layout: post
 status: done
 title: 02 Strings
+level: h1
 ---
 
 # Strings

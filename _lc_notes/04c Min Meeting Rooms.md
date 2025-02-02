@@ -4,7 +4,7 @@ index: 04c
 layout: post
 status: done
 title: 04c Min Meeting Rooms
-tags: [intervals]
+tags: [intervals, greedy]
 ---
 
 ## Min meeting rooms [LC#253]

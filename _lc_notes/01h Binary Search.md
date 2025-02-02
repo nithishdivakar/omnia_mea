@@ -4,6 +4,7 @@ index: 01h
 layout: post
 status: done
 title: 01h Binary Search
+level: h2
 ---
 
 # Binary Search

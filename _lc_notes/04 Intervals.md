@@ -4,6 +4,7 @@ index: '04'
 layout: post
 status: done
 title: 04 Intervals
+level: h1
 ---
 
 # Intervals

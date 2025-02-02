@@ -4,6 +4,7 @@ index: '07'
 layout: post
 status: done
 title: 07 Graphs
+level: h1
 ---
 
 # Graphs

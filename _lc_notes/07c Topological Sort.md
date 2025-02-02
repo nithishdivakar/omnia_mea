@@ -4,6 +4,7 @@ index: 07c
 layout: post
 status: done
 title: 07c Topological Sort
+level: h2
 ---
 
 ## Topological Sort

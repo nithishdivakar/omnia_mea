@@ -4,6 +4,7 @@ index: 08b
 layout: post
 status: done
 title: 08b DSU Union-Find
+level: h2
 ---
 
 ## DSU Union-Find

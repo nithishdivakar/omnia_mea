@@ -4,6 +4,7 @@ index: 02e
 layout: post
 status: done
 title: 02e Palindromes
+level: h2
 ---
 
 ## Palindromes

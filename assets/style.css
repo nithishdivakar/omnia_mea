@@ -194,3 +194,10 @@ span.tag{
     border: 1px solid black;
     padding: 3px;
 }
+
+a.h2 {
+    font-size: medium;
+}
+a.h1 {
+    font-size: large;
+}

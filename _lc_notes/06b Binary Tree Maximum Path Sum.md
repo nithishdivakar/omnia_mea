@@ -31,12 +31,12 @@ def binary_tree_max_path_sum(root: Optional[TreeNode]) -> int:
         left_gain = max(ending_with(node.left), 0)
         right_gain = max(ending_with(node.right), 0)
 
-        node_gain = max(left_gain, left_gain) + node.val
-
         # max path sum of path passing through node
         current_max = left_gain + node.val + right_gain
 
         ans = max(ans, current_max)
+
+        node_gain = max(left_gain, left_gain) + node.val
         return node_gain
 
     ending_with(root)

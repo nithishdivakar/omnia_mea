@@ -4,6 +4,7 @@ index: 02f
 layout: post
 status: done
 title: 02f Sliding Window
+level: h2
 ---
 
 # Sliding Window

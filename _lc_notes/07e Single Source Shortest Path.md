@@ -4,6 +4,7 @@ index: 07e
 layout: post
 status: done
 title: 07e Single Source Shortest Path
+level: h2
 ---
 
 ## Single Source Shortest Path

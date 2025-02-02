@@ -20,7 +20,7 @@ title: 01j03 Continuous Subarray Sum
 - So if `prefix(i)%k == prefix(j)%k` for any `i` and `j` more than 2 indices apart, the answer is true.
 - Only corner case is a prefix array sum itself that `sum%k` to 0.
 
-**Solution**
+### Solution
 
 ```python
 def check_subarray_sum(nums: List[int], k: int) -> bool:
