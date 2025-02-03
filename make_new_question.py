@@ -9,7 +9,7 @@ title: $id $question
 tags: []
 ---
 
-## $question [LC#NUMBER]
+## $question [LC#$lc]
 > Question Description
 
 ### Intuition
@@ -17,7 +17,7 @@ tags: []
 ### Code
 
 ### Time complexity
-$T(n) = $ $S(n) = $
+$$T(n) = $$ $$S(n) = $$
 """
               
 )
@@ -28,9 +28,10 @@ def main():
     parser = argparse.ArgumentParser(description='My Program')
     parser.add_argument('-i', '--id', help='id')
     parser.add_argument('-q', '--question', help='id')
+    parser.add_argument('-l', '--lc', help='id', default="NUMBER")
 
     args = parser.parse_args()
-    t = template.substitute(id=args.id, question=args.question)
+    t = template.substitute(id=args.id, question=args.question, lc = args.lc)
     file_path = Path(f"_lc_notes/{args.id} {args.question}.md")
     if file_path.is_file():
         print("File exists")
