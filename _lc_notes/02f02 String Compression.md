@@ -38,4 +38,5 @@ def string_compress(chars: List[str]) -> int:
     return pos
 ```
 ### Time complexity
-$T(n) = O(n)$ $S(n) = O(1)$
+- $T(n) = O(n)$
+- $S(n) = O(1)$

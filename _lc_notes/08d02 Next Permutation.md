@@ -28,4 +28,4 @@ From [here](https://en.wikipedia.org/wiki/Permutation#Generation_in_lexicographi
 
 ```
 ### Time complexity
-$T(n) = O(n)$. No extra space is used.
+- $T(n) = O(n)$. No extra space is used.

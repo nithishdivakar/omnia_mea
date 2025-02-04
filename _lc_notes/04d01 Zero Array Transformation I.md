@@ -37,4 +37,4 @@ def is_zero_array(nums: List[int], queries: List[List[int]]) -> bool:
 ```
 
 ### TimeComplexity
-$T(n) = O(n)$ and $S(n) = O(n)$
+- $T(n) = O(n)$ and $S(n) = O(n)$

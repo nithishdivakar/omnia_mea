@@ -38,4 +38,5 @@ def asteroid_collision(asteroids: List[int]) -> List[int]:
     return stack
 ```
 ### Time complexity
-$T(n) = O(n)$ $S(n) = O(n)$
+- $T(n) = O(n)$
+- $S(n) = O(n)$

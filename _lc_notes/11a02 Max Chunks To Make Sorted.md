@@ -1,10 +1,10 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: '11b'
+index: '11a02'
 layout: post
 status: done
-title: 11b Max Chunks To Make Sorted
-tags: []
+title: 11a02 Max Chunks To Make Sorted
+tags: [greedy]
 ---
 
 ## Max Chunks To Make Sorted [LC#769]
@@ -27,4 +27,5 @@ def maximum_chunks(arr: List[int]) -> int:
     return count
 ```
 ### Time complexity
-$T(n) = O(n)$ $S(n) = O(1)$
+- $T(n) = O(n)$
+- $S(n) = O(1)$

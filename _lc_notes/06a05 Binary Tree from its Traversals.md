@@ -33,4 +33,4 @@ def build_tree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNo
 
 ### Time Complexity
 
-$T(n) = O(n)$ and $S(n) = O(n)$ for the recursion stack
+- $T(n) = O(n)$ and $S(n) = O(n)$ for the recursion stack

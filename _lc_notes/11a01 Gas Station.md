@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: '11a'
+index: '11a01'
 layout: post
 status: done
-title: 11a Gas Station
+title: 11a01 Gas Station
 tags: [greedy]
 ---
 
@@ -37,4 +37,4 @@ def gas_station_valid_starting_point(gas: List[int], cost: List[int]) -> int:
 ```
 
 ### Time complexity
-$T(n) = O(n)$ , $S(n) = O(1)$
+- $T(n) = O(n)$ , $S(n) = O(1)$

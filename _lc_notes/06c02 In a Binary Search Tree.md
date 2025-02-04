@@ -16,4 +16,4 @@ title: 06c02 In a Binary Search Tree
 
 
 ### Time complexity
-$T(n) = O(n)$ and $S(n)= O(n)$ for the recursion stack in worst case.
+- $T(n) = O(n)$ and $S(n)= O(n)$ for the recursion stack in worst case.

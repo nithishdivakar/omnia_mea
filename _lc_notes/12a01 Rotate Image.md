@@ -30,4 +30,5 @@ def rotate(matrix: List[List[int]]) -> None:
 ```
 
 ### Time complexity
-$T(n) = O(n)$ $S(n) = O(1)$
+- $T(n) = O(n)$
+- $S(n) = O(1)$

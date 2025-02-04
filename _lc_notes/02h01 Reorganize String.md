@@ -43,4 +43,4 @@ def reorganize_string(self, s: str) -> str:
 ```
 
 ### Time complexity
-$T(n) = O(n \log n)$  $S(n) = O(n)$. Time complexity is $O(n)$ if we sort while exploiting the fact that there are only constant number of characters.
+- $T(n) = O(n \log n)$  $S(n) = O(n)$. Time complexity is $O(n)$ if we sort while exploiting the fact that there are only constant number of characters.

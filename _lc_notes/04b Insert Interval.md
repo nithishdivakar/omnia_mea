@@ -52,4 +52,4 @@ def insert_interval(intervals: List[Interval], new: Interval) -> List[Interval]:
 ```
 
 ### Time Complexity
-$T(n) = O(n)$
+- $T(n) = O(n)$

@@ -31,7 +31,7 @@ def lowest_common_ancestor(root: "Node", p: "Node", q: "Node") -> "Node":
 ```
 
 ### Time complexity
-$T(n) = O(n)$ and $S(n)= O(n)$ for the recursion stack in worst case.
+- $T(n) = O(n)$ and $S(n)= O(n)$ for the recursion stack in worst case.
 
 
 If nodes are not guranteed to be in the tree

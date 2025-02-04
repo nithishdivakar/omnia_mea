@@ -38,4 +38,4 @@ def length_of_lis(nums: List[int]) -> int:
 ### Run time
 Time complexity for sorting is $O(n \log n)$ and for LIS it is $O(n \log n)$. Depending on the implementation, we need $O(n)$ extra space. 
 
-$T(n) = O(n \log n)$ and $S(n) = O(n)$
+- $T(n) = O(n \log n)$ and $S(n) = O(n)$

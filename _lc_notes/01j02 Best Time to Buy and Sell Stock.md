@@ -27,4 +27,4 @@ def max_profit(prices: List[int]) -> int:
 ```
 
 ### Time Complexity
-$T(n) = O(n)$ and $S(n) = O(1)$
+- $T(n) = O(n)$ and $S(n) = O(1)$

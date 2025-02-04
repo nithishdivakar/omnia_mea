@@ -24,4 +24,4 @@ def product_except(nums: List[int]) -> List[int]:
 ```
 
 ### Time Complexity
-$T(n)= O(n)$ and $S(n)= O(n)$
+- $T(n)= O(n)$ and $S(n)= O(n)$

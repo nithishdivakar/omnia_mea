@@ -33,7 +33,7 @@ def longest_palindrommic_subsequence(s: str) -> int:
 
 ### Time Complexity
 
-$T(n) = O(n^2)$ and $S(n) = O(n^2)$
+- $T(n) = O(n^2)$ and $S(n) = O(n^2)$
 
 
 
@@ -57,4 +57,4 @@ def longest_palindromic_subsequence(s: str) -> int:
 
 ### Time Complexity
 
-$T(n) = O(n^2)$ and $S(n) = O(n)$
+- $T(n) = O(n^2)$ and $S(n) = O(n)$

@@ -34,4 +34,4 @@ def earliestAcq(self, logs: List[List[int]], n: int) -> int:
 
 ### Time Complexity
 
-$T(n) = O(n)$ since union is $O(\alpha(n))$. $S(n) = O(n)$
+- $T(n) = O(n)$ since union is $O(\alpha(n))$. $S(n) = O(n)$

@@ -33,4 +33,5 @@ def is_complete_tree(root: Optional[TreeNode]) -> bool:
 ```
 
 ### Time complexity
-$T(n) = O(n)$ $S(n) = O(n)$
+- $T(n) = O(n)$
+- $S(n) = O(n)$

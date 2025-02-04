@@ -36,4 +36,5 @@ def take_characters(s: str, k: int) -> int:
 ```
 
 ### Time complexity
-$T(n) = O(n)$ $S(n) = O(|characters|)$
+- $T(n) = O(n)$
+- $S(n) = O(|characters|)$

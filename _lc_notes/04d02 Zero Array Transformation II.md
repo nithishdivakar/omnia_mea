@@ -51,4 +51,4 @@ def minZeroArray(nums: List[int], queries: List[List[int]]) -> int:
 
 ### TimeComplexity
 If $n$ is the size of array and $m$ is number of queries, then
-$T(n) = O(n \log m)$ and $S(n) = O(n)$
+- $T(n) = O(n \log m)$ and $S(n) = O(n)$

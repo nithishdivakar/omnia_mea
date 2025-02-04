@@ -39,4 +39,4 @@ def smallestRange(nums: List[List[int]]) -> List[int]:
 
 ### Time complexity
 $n$ max size of lists and $m$ is number of lists
-$T(n) = O(n \log m)$. $S(n) = O(m)$
+- $T(n) = O(n \log m)$. $S(n) = O(m)$

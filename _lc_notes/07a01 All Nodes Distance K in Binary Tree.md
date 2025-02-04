@@ -49,4 +49,5 @@ def nodes_at_k_hops(root: TreeNode, target: TreeNode, k: int) -> List[int]:
 ### Time complexity
 Parent pointer creation is $O(n)$ and takes $O(n)$ space. BFS takes simlar space and time. 
 
-$T(n) = O(n)$ $S(n) = O(n)$
+- $T(n) = O(n)$
+- $S(n) = O(n)$

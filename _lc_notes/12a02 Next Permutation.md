@@ -44,4 +44,5 @@ tags: []
         return nums
 ```
 ### Time complexity
-$T(n) = O(n)$ $S(n) = O(1)$
+- $T(n) = O(n)$
+- $S(n) = O(1)$
