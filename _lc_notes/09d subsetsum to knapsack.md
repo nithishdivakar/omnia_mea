@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 09d
 layout: post
+slug: 09d
 status: done
-title: 09d subsetsum to knapsack
+title: subsetsum to knapsack
 ---
 
 ## Reducing subset sum to 0/1 knapsack

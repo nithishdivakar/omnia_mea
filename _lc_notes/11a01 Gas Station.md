@@ -1,10 +1,11 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: '11a01'
 layout: post
+slug: 11a01
 status: done
-title: 11a01 Gas Station
-tags: [greedy]
+tags:
+- greedy
+title: Gas Station
 ---
 
 ## Gas Station [LC#134]

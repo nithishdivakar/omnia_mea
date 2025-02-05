@@ -1,12 +1,12 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 04d01
 layout: post
+slug: 04d01
 status: done
-title: 04d01 Zero Array Transformation I
-tags: [line sweep]
+tags:
+- line sweep
+title: Zero Array Transformation I
 ---
-
 
 ## Zero Array Transformation I [LC#3355]
 > You are given an integer array nums of length n and a 2D array queries, where `queries[i] = [li, ri]`. For each `queries[i]`:

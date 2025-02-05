@@ -33,9 +33,9 @@ layout: default
         </div>
         
         {% for note in site.lc_notes %}
-            <div class="note" id="{{ note.index }}">
+            <div class="note" id="{{ note.slug }}">
                 <div style="text-align: right;height:5px">
-                    <a name="{{ note.index }}"  href="{{ note.url | prepend:site.baseurl}}" class="xxs grey monospace">{{ note.index }}</a>
+                    <a name="{{ note.slug }}"  href="{{ note.url | prepend:site.baseurl}}" class="xxs grey monospace">{{ note.slug }}</a>
                 </div>
                 
                 {{ note.content }}
@@ -54,7 +54,7 @@ layout: default
         <ul style="font-size: smaller;">
         {% for note in site.lc_notes %}
             <li>
-                <a href="#{{ note.index }}" class="{{ note.status }}{% if note.level %} {{ note.level }}{% endif %}">{{ note.title }}</a>
+                <a href="#{{ note.slug }}" class="{{ note.status }}{% if note.level %} {{ note.level }}{% endif %}">{{ note.title }}</a>
             </li>
         {% endfor %}
         </ul>

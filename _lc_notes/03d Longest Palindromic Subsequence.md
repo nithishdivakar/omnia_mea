@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 03d
 layout: post
+slug: 03d
 status: done
-title: 03d Longest Palindromic Subsequence
+title: Longest Palindromic Subsequence
 ---
 
 ## Longest Palindromic Subsequence [LC#516]

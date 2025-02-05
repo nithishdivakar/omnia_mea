@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 10a
 layout: post
+slug: 10a
 status: done
-title: 10a N-Queens Problem
+title: N-Queens Problem
 ---
 
 ## N-Queens Problem

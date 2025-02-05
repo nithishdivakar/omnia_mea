@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 06a
 layout: post
+slug: 06a
 status: todo
-title: 06a Tree Traversals
+title: Tree Traversals
 ---
 
 ## Tree Traversals

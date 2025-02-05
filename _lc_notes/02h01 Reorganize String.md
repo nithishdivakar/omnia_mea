@@ -1,10 +1,11 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: '02h01'
 layout: post
+slug: 02h01
 status: done
-title: 02h01 Reorganize String
-tags: [string]
+tags:
+- string
+title: Reorganize String
 ---
 
 ## Reorganize String [LC#767]

@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 09b
 layout: post
+slug: 09b
 status: done
-title: 09b Unbounded Knapsack
+title: Unbounded Knapsack
 ---
 
 ## Unbounded Knapsack

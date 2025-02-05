@@ -1,11 +1,10 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 08b03
 layout: post
+slug: 08b03
 status: done
-title: 08b03 The Earliest Moment When Everyone Become Friends
+title: The Earliest Moment When Everyone Become Friends
 ---
-
 
 ## The Earliest Moment When Everyone Become Friends [LC#1101]
 > There are n people in a social group labeled from `0` to `n - 1`. You are given an array logs where `logs[i] = [timestampi, xi, yi]` indicates that `xi` and `yi` will be friends at the time timestamp i.

@@ -1,10 +1,11 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: '11a03'
 layout: post
+slug: 11a03
 status: done
-title: 11a03 Jump Game
-tags: [greedy]
+tags:
+- greedy
+title: Jump Game
 ---
 
 ## Jump Game [LC#55]

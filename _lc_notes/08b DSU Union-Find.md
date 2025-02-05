@@ -1,10 +1,10 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 08b
 layout: post
-status: done
-title: 08b DSU Union-Find
 level: h2
+slug: 08b
+status: done
+title: DSU Union-Find
 ---
 
 ## DSU Union-Find

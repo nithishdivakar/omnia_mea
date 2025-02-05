@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 03c
 layout: post
+slug: 03c
 status: done
-title: 03c Longest Common Subsequence
+title: Longest Common Subsequence
 ---
 
 ## Longest Common Subsequence [LC#1143]

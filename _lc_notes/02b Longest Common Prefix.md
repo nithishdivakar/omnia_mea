@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 02b
 layout: post
+slug: 02b
 status: todo
-title: 02b Longest Common Prefix
+title: Longest Common Prefix
 ---
 
 ## Longest Common Prefix

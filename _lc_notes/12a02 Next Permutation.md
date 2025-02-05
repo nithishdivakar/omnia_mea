@@ -1,10 +1,10 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: '12a02'
 layout: post
+slug: 12a02
 status: done
-title: 12a02 Next Permutation
 tags: []
+title: Next Permutation
 ---
 
 ## Next Permutation [LC#31]

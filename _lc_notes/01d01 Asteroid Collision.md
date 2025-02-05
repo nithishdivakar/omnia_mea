@@ -1,10 +1,10 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: '01m01'
 layout: post
+slug: 01d01
 status: doing
-title: 01m01 Asteroid Collision
 tags: []
+title: Asteroid Collision
 ---
 
 ## Asteroid Collision [LC#735]

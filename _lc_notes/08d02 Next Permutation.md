@@ -1,11 +1,10 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 08d02
 layout: post
+slug: 08d02
 status: doing
-title: 08d02 Next Permutation
+title: Next Permutation
 ---
-
 
 ## Next Permutation [LC#31]
 > A permutation of an array of integers is an arrangement of its members into a sequence or linear order. For example, for `arr = [1,2,3]`, the following are all the permutations of arr: `[1,2,3], [1,3,2], [2, 1, 3], [2, 3, 1], [3,1,2], [3,2,1]`.

@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 01j02
 layout: post
+slug: 01b02
 status: done
-title: 01j02 Best Time to Buy and Sell Stock
+title: Best Time to Buy and Sell Stock
 ---
 
 ## Best Time to Buy and Sell Stock [LC#121] 

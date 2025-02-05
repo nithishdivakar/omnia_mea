@@ -1,10 +1,12 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 04c
 layout: post
+slug: 04c
 status: done
-title: 04c Min Meeting Rooms
-tags: [intervals, greedy]
+tags:
+- intervals
+- greedy
+title: Min Meeting Rooms
 ---
 
 ## Min meeting rooms [LC#253]

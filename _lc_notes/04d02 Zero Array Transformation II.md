@@ -1,12 +1,13 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 04d02
 layout: post
+slug: 04d02
 status: done
-title: 04d02 Zero Array Transformation II
-tags: [line sweep, binary search]
+tags:
+- line sweep
+- binary search
+title: Zero Array Transformation II
 ---
-
 
 ## Zero Array Transformation II [LC#3356]
 > You are given an integer array nums of length `n` and a 2D array queries where `queries[i] = [l_i, r_i, val_i]`. Each `queries[i]` represents the following action on nums:

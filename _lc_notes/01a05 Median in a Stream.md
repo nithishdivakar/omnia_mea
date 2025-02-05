@@ -1,10 +1,11 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 01g
 layout: post
+slug: 01a05
 status: done
-title: 01g Median in a Stream
+title: Median in a Stream
 ---
+
 ## Find Median from Data Stream [LC#295]
 > The median is the middle value in an ordered integer list. If the size of the list is even, there is no middle value, and the median is the mean of the two middle values.
 > - For example, for arr = [2,3,4], the median is 3.

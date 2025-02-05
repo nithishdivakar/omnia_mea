@@ -1,11 +1,12 @@
 ---
 categories: array stack
 date: 2024-01-01 00:00:00 +0000
-index: '01i03'
 layout: post
+slug: 01i03
 status: done
-title: 01i03 Daily Temperatures
-tags: [monotonic stack]
+tags:
+- monotonic stack
+title: Daily Temperatures
 ---
 
 ## Daily Temperatures [LC#739]

@@ -1,10 +1,11 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 01h03
 layout: post
+slug: 01h03
 status: done
-title: 01h03 Find Minimum in Rotated Sorted Array
-tags: [binary search]
+tags:
+- binary search
+title: Find Minimum in Rotated Sorted Array
 ---
 
 ## Find Minimum in Rotated Sorted Array [LC#153]

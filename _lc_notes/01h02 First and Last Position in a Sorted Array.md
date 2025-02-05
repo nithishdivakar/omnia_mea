@@ -1,10 +1,11 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 01h02
 layout: post
+slug: 01h02
 status: done
-title: 01h02 First and Last Position in a Sorted Array
-tags: [binary search]
+tags:
+- binary search
+title: First and Last Position in a Sorted Array
 ---
 
 ## Find First and Last Position of Element in Sorted Array [LC#34]

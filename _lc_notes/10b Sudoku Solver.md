@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 10b
 layout: post
+slug: 10b
 status: done
-title: 10b Sudoku Solver
+title: Sudoku Solver
 ---
 
 ## Sudoku Solver [LC#37]

@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 05b
 layout: post
+slug: 05b
 status: done
-title: 05b Remove Nth Node From End of List
+title: Remove Nth Node From End of List
 ---
 
 ## Remove Nth Node From End of List [LC#19]

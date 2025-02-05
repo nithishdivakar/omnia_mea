@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 06a05
 layout: post
+slug: 06a05
 status: done
-title: 06a05 Binary Tree from its Traversals
+title: Binary Tree from its Traversals
 ---
 
 ## Construct Binary Tree from Preorder and Inorder Traversal [LC#105]

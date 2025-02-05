@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 07f01
 layout: post
+slug: 07f01
 status: done
-title: 07f01 Kruskal's algorithm
+title: Kruskals algorithm
 ---
 
 ## Kruskal's algorithm for Minimum spanning tree
@@ -38,4 +38,4 @@ def kruskal_mst(num_edges: int, edges: List[Edge]) -> Tuple[List[Edge], float]:
     - $O(m \log m)$ for sorting all edges
     - $O(n)$ for make set  on each edges
     - $O(m)$ for find and union on all nodes in edges
-- Space Complexity: Extra space to maintaint the DSU datastructure ~ $O(n)$ 
+- Space Complexity: Extra space to maintaint the DSU datastructure ~ $O(n)$

@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 08d
 layout: post
+slug: 08d
 status: doing
-title: 08d Permutations
+title: Permutations
 ---
 
 ## Permutations

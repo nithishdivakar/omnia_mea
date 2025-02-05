@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 07b
 layout: post
+slug: 07b
 status: todo
-title: 07b DFS
+title: DFS
 ---
 
 ## DFS

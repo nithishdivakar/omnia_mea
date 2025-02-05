@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 07a
 layout: post
+slug: 07a
 status: todo
-title: 07a BFS
+title: BFS
 ---
 
 ## BFS

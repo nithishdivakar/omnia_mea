@@ -1,10 +1,11 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: '11a02'
 layout: post
+slug: 11a02
 status: done
-title: 11a02 Max Chunks To Make Sorted
-tags: [greedy]
+tags:
+- greedy
+title: Max Chunks To Make Sorted
 ---
 
 ## Max Chunks To Make Sorted [LC#769]

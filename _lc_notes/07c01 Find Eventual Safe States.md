@@ -1,10 +1,11 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: '07c01'
 layout: post
+slug: 07c01
 status: done
-title: 07c01 Find Eventual Safe States
-tags: [topological sort]
+tags:
+- topological sort
+title: Find Eventual Safe States
 ---
 
 ## Find Eventual Safe States [LC#802]

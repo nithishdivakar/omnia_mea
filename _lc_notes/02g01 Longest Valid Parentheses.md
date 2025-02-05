@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: '02g01'
 layout: post
+slug: 02g01
 status: done
-title: 02g01 Longest Valid Parentheses
+title: Longest Valid Parentheses
 ---
 
 ## Longest Valid Parentheses [LC32]

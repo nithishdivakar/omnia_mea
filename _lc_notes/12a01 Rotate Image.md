@@ -1,10 +1,10 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: '12a01'
 layout: post
+slug: 12a01
 status: done
-title: 12a01 Rotate Image
 tags: []
+title: Rotate Image
 ---
 
 ## Rotate Image [LC#48]

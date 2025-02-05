@@ -1,13 +1,13 @@
 ---
 categories: array stack
 date: 2024-01-01 00:00:00 +0000
-index: '01i01'
 layout: post
+slug: 01i01
 status: done
-title: 01i01 Largest Rectangle in Histogram
-tags: [monotonic stack]
+tags:
+- monotonic stack
+title: Largest Rectangle in Histogram
 ---
-
 
 ## Largest Rectangle in Histogram [ LC# 84]
 Given an array of integers heights representing the histogram's bar height where the width of each bar is 1, return the area of the largest rectangle in the histogram.

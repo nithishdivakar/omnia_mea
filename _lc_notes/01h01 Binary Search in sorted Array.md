@@ -1,10 +1,11 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 01h01
 layout: post
+slug: 01h01
 status: done
-title: 01h01 Binary Search in Sorted Array
-tags: [binary search]
+tags:
+- binary search
+title: Binary Search in Sorted Array
 ---
 
 ## Binary search in a sorted array     

@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 06c02
 layout: post
+slug: 06c02
 status: todo
-title: 06c02 In a Binary Search Tree
+title: In a Binary Search Tree
 ---
 
 ## Lowest Common Ancestor of a Binary Search Tree [LC#235]

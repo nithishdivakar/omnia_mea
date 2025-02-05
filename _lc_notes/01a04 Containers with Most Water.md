@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 01e
 layout: post
+slug: 01a04
 status: done
-title: 01e Containers with Most Water
+title: Containers with Most Water
 ---
 
 ## Containers with most water [LC#11]

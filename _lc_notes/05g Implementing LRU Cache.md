@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 05g
 layout: post
+slug: 05g
 status: done
-title: 05g Implementing LRU Cache
+title: Implementing LRU Cache
 ---
 
 ## Implementing LRU Cache [LC#146]

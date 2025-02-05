@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 01j03
 layout: post
+slug: 01b03
 status: done
-title: 01j03 Continuous Subarray Sum
+title: Continuous Subarray Sum
 ---
 
 ## Continuous Subarray Sum [LC#523]

@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 08c
 layout: post
+slug: 08c
 status: done
-title: 08c DSU with Rollbacks
+title: DSU with Rollbacks
 ---
 
 ## DSU with Rollbacks

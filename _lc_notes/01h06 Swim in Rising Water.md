@@ -1,10 +1,12 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: '01h06'
 layout: post
+slug: 01h06
 status: done
-title: 01h06 Swim in Rising Water
-tags: [binary search, BFS]
+tags:
+- binary search
+- BFS
+title: Swim in Rising Water
 ---
 
 ## Swim in Rising Water [LC#778]

@@ -1,10 +1,11 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: '02f02'
 layout: post
+slug: 02f02
 status: done
-title: 02f02 String Compression
-tags: [two pointers]
+tags:
+- two pointers
+title: String Compression
 ---
 
 ## String Compression [LC#443]

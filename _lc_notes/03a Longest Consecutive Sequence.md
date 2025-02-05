@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 03a
 layout: post
+slug: 03a
 status: done
-title: 03a Longest Consecutive Sequence
+title: Longest Consecutive Sequence
 ---
 
 ## Longest Consecutive Sequence [LC#128]

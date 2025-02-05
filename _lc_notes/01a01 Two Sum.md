@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 01a01
 layout: post
+slug: 01a01
 status: done
-title: 01a01 Two Sum
+title: Two Sum
 ---
 
 ## Two sum [LC#1]

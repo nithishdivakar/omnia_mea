@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 02f03
 layout: post
+slug: 02f03
 status: done
-title: 02f03 Take K of Each Character From Left and Right
+title: Take K of Each Character From Left and Right
 ---
 
 ## Take K of Each Character From Left and Right [LC#2516]

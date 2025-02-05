@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 07e01
 layout: post
+slug: 07e01
 status: done
-title: 07e01 Dijkstra Algorithm
+title: Dijkstra Algorithm
 ---
 
 ## Dijkstra algorithm

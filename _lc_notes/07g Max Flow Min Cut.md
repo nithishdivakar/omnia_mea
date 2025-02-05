@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 07g
 layout: post
+slug: 07g
 status: todo
-title: 07g Max Flow Min Cut
+title: Max Flow Min Cut
 ---
 
 ## Max Flow Min Cut

@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 08a
 layout: post
+slug: 08a
 status: done
-title: 08a Constructing Powersets
+title: Constructing Powersets
 ---
 
 ## Subsets II [LC#90]

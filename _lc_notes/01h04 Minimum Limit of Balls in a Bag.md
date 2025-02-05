@@ -1,10 +1,11 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 01h04
 layout: post
+slug: 01h04
 status: done
-title: 01h04 Minimum Limit of Balls in a Bag
-tags: [binary search]
+tags:
+- binary search
+title: Minimum Limit of Balls in a Bag
 ---
 
 ## Minimum Limit of Balls in a Bag [LC#1760]

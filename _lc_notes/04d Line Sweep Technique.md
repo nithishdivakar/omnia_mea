@@ -1,11 +1,12 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 04d
 layout: post
-status: done
-title: 04d Line Sweep Technique
-tags: [line sweep]
 level: h2
+slug: 04d
+status: done
+tags:
+- line sweep
+title: Line Sweep Technique
 ---
 
 ## Line Sweep

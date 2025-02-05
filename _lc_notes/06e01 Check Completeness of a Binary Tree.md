@@ -1,10 +1,11 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: '06e01'
 layout: post
+slug: 06e01
 status: done
-title: 06e01 Check Completeness of a Binary Tree
-tags: [binary tree]
+tags:
+- binary tree
+title: Check Completeness of a Binary Tree
 ---
 
 ## Check Completeness of a Binary Tree [LC#958]

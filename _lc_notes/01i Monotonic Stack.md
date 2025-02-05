@@ -1,14 +1,14 @@
 ---
 categories: array stack
 date: 2024-01-01 00:00:00 +0000
-index: '01i'
 layout: post
-status: done
-title: 01i Monotonic Stack
-tags: [monotonic stack]
 level: h2
+slug: 01i
+status: done
+tags:
+- monotonic stack
+title: Monotonic Stack
 ---
-
 
 ## Monotonic Stack
 

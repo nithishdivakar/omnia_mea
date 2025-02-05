@@ -1,10 +1,11 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 04a
 layout: post
+slug: 04a
 status: done
-title: 04a Merge Intervals
-tags: [intervals]
+tags:
+- intervals
+title: Merge Intervals
 ---
 
 ## Merge Intervals [LC#56]

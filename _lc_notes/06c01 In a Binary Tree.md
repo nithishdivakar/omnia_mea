@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 06c01
 layout: post
+slug: 06c01
 status: done
-title: 06c01 In a Binary Tree
+title: In a Binary Tree
 ---
 
 ## Lowest Common Ancestor of a Binary Tree [LC#236]

@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 06a02
 layout: post
+slug: 06a02
 status: todo
-title: 06a02 Pre Order
+title: Pre Order
 ---
 
 ## Pre Order

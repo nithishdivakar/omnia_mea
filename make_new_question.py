@@ -2,10 +2,10 @@ from string import Template
 
 template  = Template("""---
 date: 2024-01-01 00:00:00 +0000
-index: '$id'
+slug: '$id'
 layout: post
 status: done
-title: $id $question
+title: $question
 tags: []
 ---
 
@@ -15,9 +15,13 @@ tags: []
 ### Intuition
 
 ### Code
+```python
+
+```
 
 ### Time complexity
-$$T(n) = $$ $$S(n) = $$
+- $$T(n) = $$ 
+- $$S(n) = $$
 """
               
 )

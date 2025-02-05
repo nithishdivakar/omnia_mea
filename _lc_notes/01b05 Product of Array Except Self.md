@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 01j05
 layout: post
+slug: 01b05
 status: done
-title: 01j05 Product of Array Except Self
+title: Product of Array Except Self
 ---
 
 ## Product of Array Except Self [LC#238]

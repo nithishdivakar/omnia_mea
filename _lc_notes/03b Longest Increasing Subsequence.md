@@ -1,10 +1,10 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 03b
 layout: post
-status: done
-title: 03b Longest Increasing Subsequence
 level: h2
+slug: 03b
+status: done
+title: Longest Increasing Subsequence
 ---
 
 ## Longest Increasing Subsequence [LC#300]

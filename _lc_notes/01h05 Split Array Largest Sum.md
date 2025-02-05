@@ -1,10 +1,11 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 01h05
 layout: post
+slug: 01h05
 status: done
-title: 01h05 Split Array Largest Sum
-tags: [binary search]
+tags:
+- binary search
+title: Split Array Largest Sum
 ---
 
 ## Split Array Largest Sum [LC#412]

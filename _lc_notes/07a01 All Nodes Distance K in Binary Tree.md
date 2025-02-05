@@ -1,10 +1,12 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: '07a01'
 layout: post
+slug: 07a01
 status: done
-title: 07a01 All Nodes Distance K in Binary Tree
-tags: [binary tree, BFS]
+tags:
+- binary tree
+- BFS
+title: All Nodes Distance K in Binary Tree
 ---
 
 ## All Nodes Distance K in Binary Tree [LC#863]

@@ -1,10 +1,11 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 02e02
 layout: post
+slug: 02e02
 status: done
-title: 02e02 Count Palindromic Substrings
-tags: [palindromes]
+tags:
+- palindromes
+title: Count Palindromic Substrings
 ---
 
 ## Count Palindromic Substrings [LC#647]

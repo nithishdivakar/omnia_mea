@@ -1,10 +1,11 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 02e03
 layout: post
+slug: 02e03
 status: doing
-title: 02e03 Manacher Algorithm
-tags: [palindromes]
+tags:
+- palindromes
+title: Manacher Algorithm
 ---
 
 ## Manacher Algorithm

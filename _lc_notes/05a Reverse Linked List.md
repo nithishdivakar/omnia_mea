@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 05a
 layout: post
+slug: 05a
 status: done
-title: 05a Reverse Linked List
+title: Reverse Linked List
 ---
 
 ## Reverse Linked List [LC#206]

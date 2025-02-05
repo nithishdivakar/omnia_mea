@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 05c
 layout: post
+slug: 05c
 status: done
-title: 05c Merging Two Sorted Linked Lists
+title: Merging Two Sorted Linked Lists
 ---
 
 ## Merge Two Sorted Lists [LC#21]

@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 03e
 layout: post
+slug: 03e
 status: done
-title: 03e Sum of Good Subsequences
+title: Sum of Good Subsequences
 ---
 
 ## Sum of Good Subsequences [LC#3351]

@@ -1,10 +1,10 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 01h
 layout: post
-status: done
-title: 01h Binary Search
 level: h2
+slug: 01h
+status: done
+title: Binary Search
 ---
 
 # Binary Search

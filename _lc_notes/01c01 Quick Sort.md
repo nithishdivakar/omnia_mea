@@ -1,10 +1,11 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 01k
 layout: post
+slug: 01c01
 status: done
-title: 01k Quick Sort
+title: Quick Sort
 ---
+
 ## Quick Select
 ### Partition Scheme intuition.
 - Select the last element in the array as pivot.

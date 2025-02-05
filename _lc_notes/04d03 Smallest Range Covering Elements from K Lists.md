@@ -1,10 +1,12 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 04d03
 layout: post
+slug: 04d03
 status: doing
-title: 04d03 Smallest Range Covering Elements from K Lists
-tags: [line sweep, intervals]
+tags:
+- line sweep
+- intervals
+title: Smallest Range Covering Elements from K Lists
 ---
 
 ## Smallest Range Covering Elements from K Lists [LC#632]

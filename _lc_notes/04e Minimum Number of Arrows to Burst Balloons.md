@@ -1,10 +1,12 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: '04e'
 layout: post
+slug: 04e
 status: todo
-title: 04e Minimum Number of Arrows to Burst Balloons
-tags: [intervals, greedy]
+tags:
+- intervals
+- greedy
+title: Minimum Number of Arrows to Burst Balloons
 ---
 
 ## Minimum Number of Arrows to Burst Balloons [LC#452]

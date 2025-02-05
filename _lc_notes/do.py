@@ -5,8 +5,13 @@ import os
 for idx, path in enumerate(Path(".").glob("*.md")):
     # print(path)
     post = frontmatter.load(path)
-    if not (path.name.split(" ")[0] == post['index'] == post['title'].split(" ")[0]):
-        print(path)
+
+    # if not (path.name.split(" ")[0] == post['index'] == post['title'].split(" ")[0]):
+    #     print(path)
+    # del post["index"]
+    should_be_path = f"{post['slug']} {post['title']}.md"
+    if str(path) != should_be_path:
+        print(f"""mv "{path}" "{should_be_path}" """)
 
     # print(frontmatter.dumps(post))
     # with open(path,'w') as F:

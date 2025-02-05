@@ -1,11 +1,12 @@
 ---
 categories: array stack
 date: 2024-01-01 00:00:00 +0000
-index: '01i02'
 layout: post
+slug: 01i02
 status: done
-title: 01i02 Sum of Subarray Minimums
-tags: [monotonic stack]
+tags:
+- monotonic stack
+title: Sum of Subarray Minimums
 ---
 
 ## Sum of Subarray Minimums [LC#907]

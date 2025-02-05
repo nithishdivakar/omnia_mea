@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 01j01
 layout: post
+slug: 01b01
 status: done
-title: 01j01 Maximum Subarray Sum
+title: Maximum Subarray Sum
 ---
 
 ## Maximum Subarray Sum [LC#53]

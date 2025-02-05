@@ -1,9 +1,9 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: 02d
 layout: post
+slug: 02d
 status: done
-title: 02d Edit Distances
+title: Edit Distances
 ---
 
 ## Edit Distance [LC#72]

@@ -1,10 +1,10 @@
 ---
 date: 2024-01-01 00:00:00 +0000
-index: '01l01'
 layout: post
+slug: 01a06
 status: done
-title: 01l01 Rotate Array
 tags: []
+title: Rotate Array
 ---
 
 ## Rotate Array [LC#189]
