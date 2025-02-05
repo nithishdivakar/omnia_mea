@@ -35,7 +35,7 @@ layout: default
         {% for note in site.lc_notes %}
             <div class="note" id="{{ note.index }}">
                 <div style="text-align: right;height:5px">
-                    <a name="{{ note.index }}"  href="{{ note.url }}" class="xxs grey monospace">{{ note.index }}</a>
+                    <a name="{{ note.index }}"  href="{{ note.url | prepend:site.baseurl}}" class="xxs grey monospace">{{ note.index }}</a>
                 </div>
                 
                 {{ note.content }}

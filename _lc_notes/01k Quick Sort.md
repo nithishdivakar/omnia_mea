@@ -3,8 +3,7 @@ date: 2024-01-01 00:00:00 +0000
 index: 01k
 layout: post
 status: done
-title: 
-
+title: 01k Quick Sort
 ---
 ## Quick Select
 ### Partition Scheme intuition.
