@@ -54,7 +54,7 @@ layout: default
         <ul style="font-size: smaller;">
         {% for note in site.lc_notes %}
             <li>
-                <a href="#{{ note.slug }}" class="{{ note.status }}{% if note.level %} {{ note.level }}{% endif %}">{{ note.title }}</a>
+                <a href="#{{ note.slug }}" class="{{ note.status }}{% if note.level %} {{ note.level }}{% endif %}">{{note.slug}} {{ note.title }}</a>
             </li>
         {% endfor %}
         </ul>
