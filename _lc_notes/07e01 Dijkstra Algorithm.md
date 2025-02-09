@@ -18,8 +18,8 @@ def dijkstra(graph: List[List[Tuple[int, float]]], source: int) -> List[float]:
 
     while heap:
         curr_dist, node = heapq.heappop(heap)
-        if curr_dist > distances[node]:
-            continue
+        # if curr_dist > distances[node]:
+        #     continue
         
         for neighbour, weight in graph[node]:
             dist = curr_dist + weight
