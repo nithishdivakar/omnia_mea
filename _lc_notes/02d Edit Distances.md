@@ -26,9 +26,11 @@ def edit_distance(word1: str, word2: str) -> int:
     
     # Initialize the first row and column
     for i in range(m + 1):
-        cost[i][0] = i  # Cost of deleting all characters from word1 to form word2
+        # Cost of deleting all characters from word1 to form word2
+        cost[i][0] = i  * costs['delete']
     for j in range(n + 1):
-        cost[0][j] = j  # Cost of inserting all characters to word1 to form word2
+        # Cost of inserting all characters to word1 to form word2
+        cost[0][j] = j  * costs['insert']
 
     # Fill the cost matrix
     for i in range(1, m + 1):

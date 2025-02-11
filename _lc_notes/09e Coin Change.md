@@ -1,10 +1,10 @@
 ---
 date: 2024-01-01 00:00:00 +0000
 layout: post
-level: h1
-slug: 09
+level: h2
+slug: 09e
 status: done
-title: Knapsack
+title: Coin Change
 ---
 
-# Knapsack
+## Coin Change
