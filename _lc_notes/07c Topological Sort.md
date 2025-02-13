@@ -55,7 +55,7 @@ def topological_sort_dfs(graph: Dict[str, List[str]]) -> List[str]:
 
     def dfs(node: str) -> bool:
         if color[node] == GRAY:
-            return []  # Cycle detected
+            return False # Cycle detected
         if color[node] == WHITE:
             color[node] = GRAY
             for neighbor in graph[node]:
