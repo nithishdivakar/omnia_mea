@@ -1,7 +1,7 @@
 ---
 date: 2024-01-01 00:00:00 +0000
 layout: post
-level: h2
+level: h1
 slug: 01h
 status: done
 title: Binary Search

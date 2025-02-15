@@ -4,6 +4,8 @@ layout: post
 slug: 01a04
 status: done
 title: Containers with Most Water
+tags:
+    - two pointers
 ---
 
 ## Containers with most water [LC#11]
