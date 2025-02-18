@@ -4,6 +4,7 @@ layout: post
 slug: 70a
 status: done
 title: Next Permutation
+tags: [permutation]
 ---
 
 
