@@ -4,6 +4,8 @@ layout: post
 slug: 40a
 status: done
 title: Dijkstra Algorithm
+tags:
+- dijkstra sssp
 ---
 
 ## Dijkstra algorithm

@@ -4,6 +4,7 @@ layout: post
 slug: 42b
 status: done
 title: Prims Algorithm
+tags: [mst]
 ---
 
 ## Prim's Algorithm for Minimum spanning tree

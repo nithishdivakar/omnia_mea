@@ -4,6 +4,8 @@ layout: post
 slug: 27c
 status: done
 title: Take K of Each Character From Left and Right
+tags:
+- sliding window
 ---
 
 ## Take K of Each Character From Left and Right [LC#2516]

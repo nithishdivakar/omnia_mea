@@ -5,6 +5,8 @@ level: h1
 slug: '44'
 status: done
 title: Topological Sort
+tags:
+- topological sort
 ---
 
 ## Topological Sort

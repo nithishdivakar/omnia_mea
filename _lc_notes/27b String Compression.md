@@ -5,6 +5,7 @@ slug: 27b
 status: done
 tags:
 - two pointers
+- sliding window
 title: String Compression
 ---
 

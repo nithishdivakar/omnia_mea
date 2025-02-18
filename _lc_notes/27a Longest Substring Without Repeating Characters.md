@@ -4,6 +4,9 @@ layout: post
 slug: 27a
 status: done
 title: Longest Substring Without Repeating Characters
+tags:
+- two pointers
+- sliding window
 ---
 
 ## Longest Substring Without Repeating Characters [LC#3]
@@ -18,17 +21,17 @@ title: Longest Substring Without Repeating Characters
 - $T(n) = O(n)$; $S(n) = O(|char set|)$
     ```python
     def max_substring_without_repetition(s: str) -> int:
-         char_count = defaultdict(int)
-         left = 0
-         ans = 0
-         for right in range(len(s)):
-             current_char = s[right]
-             char_count[current_char] += 1 
-             while char_count[current_char]>1:
-                 char_count[s[left]] -= 1 
-                 left += 1
-             ans = max(ans, right-left+1)
-         return ans
+        char_count = defaultdict(int)
+        left = 0
+        ans = 0
+        for right in range(len(s)):
+            current_char = s[right]
+            char_count[current_char] += 1 
+            while char_count[current_char]>1:
+                char_count[s[left]] -= 1 
+                left += 1
+            ans = max(ans, right-left+1)
+        return ans
     ```
 **Optimised Sliding window**
 - Same as previous approach, but keep track last occurance of all characters seen so far.

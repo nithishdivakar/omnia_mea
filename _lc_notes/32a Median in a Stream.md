@@ -4,6 +4,8 @@ layout: post
 slug: 32a
 status: done
 title: Median in a Stream
+tags:
+- heap
 ---
 
 ## Find Median from Data Stream [LC#295]

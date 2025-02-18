@@ -4,6 +4,7 @@ layout: post
 slug: 42a
 status: done
 title: Kruskals algorithm
+tags: [mst]
 ---
 
 ## Kruskal's algorithm for Minimum spanning tree
